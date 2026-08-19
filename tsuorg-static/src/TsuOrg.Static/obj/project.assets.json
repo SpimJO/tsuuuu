@@ -606,19 +606,6 @@
           "build/Microsoft.NET.Sdk.WebAssembly.Pack.targets": {}
         }
       },
-      "Net.Codecrete.QrCodeGenerator/2.0.7": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/QrCodeGenerator.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/QrCodeGenerator.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "System.IdentityModel.Tokens.Jwt/8.3.1": {
         "type": "package",
         "dependencies": {
@@ -1240,19 +1227,6 @@
         "build": {
           "build/Microsoft.NET.Sdk.WebAssembly.Pack.props": {},
           "build/Microsoft.NET.Sdk.WebAssembly.Pack.targets": {}
-        }
-      },
-      "Net.Codecrete.QrCodeGenerator/2.0.7": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/QrCodeGenerator.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/QrCodeGenerator.dll": {
-            "related": ".xml"
-          }
         }
       },
       "System.IdentityModel.Tokens.Jwt/8.3.1": {
@@ -2404,23 +2378,6 @@
         "tools/net472/Microsoft.NET.WebAssembly.Webcil.dll"
       ]
     },
-    "Net.Codecrete.QrCodeGenerator/2.0.7": {
-      "sha512": "DAJnVhzqjvuyxzXO4WDN8nSsOc80BxsIktFcsnN79glVG/oyj/nGudruuaRLDL45NvvTYiu79EFOsiWHL6Q8kw==",
-      "type": "package",
-      "path": "net.codecrete.qrcodegenerator/2.0.7",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "README.md",
-        "lib/net6.0/QrCodeGenerator.dll",
-        "lib/net6.0/QrCodeGenerator.xml",
-        "lib/netstandard2.0/QrCodeGenerator.dll",
-        "lib/netstandard2.0/QrCodeGenerator.xml",
-        "logo.png",
-        "net.codecrete.qrcodegenerator.2.0.7.nupkg.sha512",
-        "net.codecrete.qrcodegenerator.nuspec"
-      ]
-    },
     "System.IdentityModel.Tokens.Jwt/8.3.1": {
       "sha512": "SxdCv+SmnKOhUvryKvrpWJnkuVHj3hU8pUwj7R8zthi73TlBUlMyavon9qfuJsjnqY+L7jusp3Zo0fWFX6mwtw==",
       "type": "package",
@@ -2454,7 +2411,6 @@
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 10.0.0",
       "Microsoft.NET.ILLink.Tasks >= 10.0.10",
       "Microsoft.NET.Sdk.WebAssembly.Pack >= 10.0.10",
-      "Net.Codecrete.QrCodeGenerator >= 2.0.7",
       "System.IdentityModel.Tokens.Jwt >= 8.3.1"
     ]
   },
@@ -2533,10 +2489,6 @@
             "target": "Package",
             "version": "[10.0.10, )",
             "autoReferenced": true
-          },
-          "Net.Codecrete.QrCodeGenerator": {
-            "target": "Package",
-            "version": "[2.0.7, )"
           },
           "System.IdentityModel.Tokens.Jwt": {
             "target": "Package",

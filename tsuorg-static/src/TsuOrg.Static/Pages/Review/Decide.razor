@@ -82,27 +82,6 @@ else
             }
         </ul>
 
-        <h5 class="review-section-label">Document Integrity</h5>
-        <div class="integrity-box">
-            @if (_doc.IsMetadataLocked)
-            {
-                <DocumentQrCode Payload="@ReviewQrPayload" Caption="@_doc.DocumentNumber" />
-                <span>
-                    Generated: @(_doc.MetadataLockedAt?.ToLocalTime().ToString("MMM d, yyyy") ?? "—")
-                    · Status: @StatusLabel
-                    · Version: @VersionLabel
-                    · Locked: Yes
-                </span>
-            }
-            else
-            {
-                <span class="val-muted">
-                    Status: @StatusLabel · Version: @VersionLabel · Locked: No
-                    — verification QR not generated yet.
-                </span>
-            }
-        </div>
-
         @if (!string.IsNullOrEmpty(_doc.PrimaryFileName) || _doc.Attachments.Count > 0)
         {
             <h5 class="review-section-label">Uploaded Files</h5>
@@ -205,7 +184,6 @@ else
     private DocumentDetailDto? _doc;
     private ValidationDetailDto? _validation;
     private WorkflowHistoryDto? _history;
-    private IReadOnlyList<DocumentVersionDto> _versions = [];
     private bool _loading = true;
     private bool _busy;
     private bool _openingFile;
@@ -327,19 +305,6 @@ else
         _ => "—",
     };
 
-    private string? ReviewQrPayload =>
-        _doc is null ? null : DocumentQr.Payload(_doc.DocumentNumber, _doc.Title, _doc.OrganizationName);
-
-    private string VersionLabel
-    {
-        get
-        {
-            if (_versions.Count > 0)
-                return $"{_versions.Max(v => v.VersionNumber)}.0";
-            return "1.0";
-        }
-    }
-
     protected override async Task OnInitializedAsync()
     {
         try
@@ -351,8 +316,6 @@ else
                 catch { /* graceful degrade */ }
                 try { _history = await Api.GetWorkflowHistoryAsync(DocumentId); }
                 catch { /* optional */ }
-                try { _versions = await Api.GetDocumentVersionsAsync(DocumentId); }
-                catch { _versions = []; }
             }
         }
         catch (Exception ex)

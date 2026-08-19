@@ -20,11 +20,11 @@
     <p class="hint">
         @if (_confirmed || (_doc?.IsMetadataLocked ?? false))
         {
-            <text>Metadata is locked. A verification QR code is generated. Your submission is uneditable.</text>
+            <text>Metadata is locked. Your submission is uneditable.</text>
         }
         else
         {
-            <text>Confirming will lock metadata, generate a verification QR code, and send this package to the Adviser review queue. No further edits can be made.</text>
+            <text>Confirming will lock metadata and send this package to the Adviser review queue. No further edits can be made.</text>
         }
     </p>
 
@@ -75,11 +75,6 @@
             </div>
         </div>
 
-        @if (_metadataLocked && !string.IsNullOrWhiteSpace(QrPayload))
-        {
-            <DocumentQrCode Payload="@QrPayload" Caption="Scan to verify this submission" />
-        }
-
         @if (!_canConfirm && !_metadataLocked)
         {
             <p class="form-error" role="alert" style="margin-top:0.75rem;">
@@ -89,7 +84,7 @@
 
         <p class="hint" style="margin-top:1rem;">
             Confirming your submission will send the document for official university review.
-            No further edits can be made. Verification QR and metadata are locked. Your submission is definitive.
+            No further edits can be made. Metadata is locked. Your submission is definitive.
         </p>
 
         <div class="wizard-actions">
@@ -139,11 +134,6 @@
         _confirmed || (_doc?.IsMetadataLocked ?? false);
 
     private bool _auditCreated => _metadataLocked;
-
-    private string? QrPayload =>
-        _metadataLocked
-            ? DocumentQr.Payload(DocumentId, Subject, Organization)
-            : null;
 
     private string ValidationStatusLabel
     {

@@ -77,10 +77,6 @@
               "version": "[10.0.10, )",
               "autoReferenced": true
             },
-            "Net.Codecrete.QrCodeGenerator": {
-              "target": "Package",
-              "version": "[2.0.7, )"
-            },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
               "version": "[8.3.1, )"

@@ -33,10 +33,6 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Development/projects/tsuorg-clone/tsuorg-static/src/TsuOrg.Static/Components/DocumentQrCode.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xEb2N1bWVudFFyQ29kZS5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
 [D:/Development/projects/tsuorg-clone/tsuorg-static/src/TsuOrg.Static/Components/DocumentTimeline.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xEb2N1bWVudFRpbWVsaW5lLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 

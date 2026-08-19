@@ -1,5 +1,4 @@
 using System.Net;
-using System.Security.Cryptography;
 using System.Text;
 using System.Text.Json;
 using TsuOrg.Frontend.Models;
@@ -190,7 +189,6 @@ public sealed class MockStore
             var doc = RequireDoc(documentId);
             doc.Locked = true;
             doc.LockedAt = DateTimeOffset.Now;
-            doc.Hash = Convert.ToHexString(SHA256.HashData(Encoding.UTF8.GetBytes(doc.Id + doc.Number + doc.Title))).ToLowerInvariant();
             if (doc.Validation is null) ApplyMockValidation(doc);
             if (doc.Status is "Draft" or "Submitted")
             {
@@ -198,10 +196,10 @@ public sealed class MockStore
                 doc.Stage = "Adviser";
                 doc.AssignedTo = doc.AdviserName;
             }
-            AddEvent(doc, "Submission confirmed", "Metadata locked. Verification QR code generated.", "Officer", "Submitted", u);
+            AddEvent(doc, "Submission confirmed", "Metadata locked.", "Officer", "Submitted", u);
             AddAudit(doc, "Confirmed", "Confirm", "Confirmed", u?.FullName ?? "Officer", RoleLabel(u?.Role));
             return new ConfirmSubmissionResult(
-                doc.Id, doc.Number, doc.Status, doc.Stage, true, doc.Hash!, doc.LockedAt.Value,
+                doc.Id, doc.Number, doc.Status, doc.Stage, true, doc.LockedAt.Value,
                 doc.Flagged ? "Flagged" : "Passed",
                 "Submission confirmed. Routed to the next review stage.");
         }
@@ -706,7 +704,7 @@ public sealed class MockStore
 
     private void SeedTimelinesAndAudit()
     {
-        Event("doc-001", "2026-08-12T09:20:00+08:00", "Submission confirmed", "Metadata locked. Verification QR code generated.", "Officer", "Submitted");
+        Event("doc-001", "2026-08-12T09:20:00+08:00", "Submission confirmed", "Metadata locked.", "Officer", "Submitted");
         Event("doc-001", "2026-08-12T09:22:00+08:00", "OCR scanning complete", "Tesseract v5 average confidence 94%.", "Calsv", "Submitted");
         Event("doc-001", "2026-08-12T09:24:00+08:00", "AI validation complete", "CALSV class: Valid Submission · 91%.", "Calsv", "AiValidated");
         Event("doc-001", "2026-08-12T09:28:00+08:00", "Routed to Adviser", "Package queued for Adviser Demo.", "Adviser", "UnderReview");
@@ -802,7 +800,7 @@ public sealed class MockStore
         return new DocumentDetailDto(
             d.Id, d.Number, d.Title, OrgName(d.OrgId), d.TypeCode, d.TypeName, "2026-2027",
             d.SubmittedBy, d.Status, d.Stage, d.PrimaryFile, d.PrimaryContentType, d.CreatedAt, d.SubmittedAt,
-            d.Locked, d.Hash, d.LockedAt,
+            d.Locked, d.LockedAt,
             d.Attachments.Select(a => new AttachmentDto(a.Id, a.Type, a.FileName, a.ContentType)).ToList(),
             summary);
     }
@@ -1019,7 +1017,6 @@ public sealed class MockStore
             TypeCode = type.Code, OrgId = MockIds.Of(orgKey), Status = status, Stage = stage, Score = score,
             Flagged = flagged, SubmittedAt = at, CreatedAt = at, SubmittedBy = submittedBy,
             SubmittedByPosition = "President", AdviserName = adviser, AssignedTo = assigned,
-            Hash = Convert.ToHexString(SHA256.HashData(Encoding.UTF8.GetBytes(key + number))).ToLowerInvariant(),
             Locked = status != "Draft", LockedAt = status == "Draft" ? null : at.AddMinutes(8),
             PrimaryFile = primary,
         };

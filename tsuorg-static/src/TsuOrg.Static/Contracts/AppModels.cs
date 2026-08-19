@@ -57,7 +57,6 @@ public sealed record ConfirmSubmissionResult(
     string Status,
     string CurrentStage,
     bool IsMetadataLocked,
-    string MetadataLockHash,
     DateTimeOffset MetadataLockedAt,
     string ValidationStatus,
     string Message);
@@ -95,7 +94,6 @@ public sealed record DocumentDetailDto(
     DateTimeOffset CreatedAt,
     DateTimeOffset? UpdatedAt,
     bool IsMetadataLocked,
-    string? MetadataLockHash,
     DateTimeOffset? MetadataLockedAt,
     IReadOnlyList<AttachmentDto> Attachments,
     ValidationSummaryDto? LatestValidation);

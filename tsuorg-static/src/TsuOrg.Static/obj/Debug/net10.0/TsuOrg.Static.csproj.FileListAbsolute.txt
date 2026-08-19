@@ -1535,14 +1535,6 @@ D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\bin\Debug\n
 D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\bin\Debug\net10.0\wwwroot\_framework\icudt_EFIGS.tptq2av103.dat.gz
 D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\bin\Debug\net10.0\wwwroot\_framework\icudt_no_CJK.lfu7j35m59.dat.gz
 D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\bin\Debug\net10.0\wwwroot\_framework\Microsoft.DotNet.HotReload.WebAssembly.Browser.ccsptreuls.wasm.gz
-D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\bin\Debug\net10.0\wwwroot\_framework\QrCodeGenerator.gjmcx4qi2r.wasm
-D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\bin\Debug\net10.0\wwwroot\_framework\TsuOrg.Static.sasad2yyeo.wasm
-D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\bin\Debug\net10.0\wwwroot\_framework\TsuOrg.Static.a30wfp29mb.pdb
-D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\bin\Debug\net10.0\wwwroot\_framework\dotnet.afp517vq8s.js
-D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\bin\Debug\net10.0\wwwroot\_framework\QrCodeGenerator.gjmcx4qi2r.wasm.gz
-D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\bin\Debug\net10.0\wwwroot\_framework\TsuOrg.Static.sasad2yyeo.wasm.gz
-D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\bin\Debug\net10.0\wwwroot\_framework\TsuOrg.Static.a30wfp29mb.pdb.gz
-D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\bin\Debug\net10.0\wwwroot\_framework\dotnet.afp517vq8s.js.gz
 D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\bin\Debug\net10.0\TsuOrg.Static.staticwebassets.runtime.json
 D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\bin\Debug\net10.0\TsuOrg.Static.staticwebassets.endpoints.json
 D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\bin\Debug\net10.0\TsuOrg.Static.dll
@@ -1578,7 +1570,6 @@ D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\bin\Debug\n
 D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
 D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\bin\Debug\net10.0\Microsoft.JSInterop.dll
 D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\bin\Debug\net10.0\Microsoft.JSInterop.WebAssembly.dll
-D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\bin\Debug\net10.0\QrCodeGenerator.dll
 D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll
 D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\bin\Debug\net10.0\Microsoft.CSharp.dll
 D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\bin\Debug\net10.0\Microsoft.VisualBasic.Core.dll
@@ -1804,7 +1795,6 @@ D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\obj\Debug\n
 D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\obj\Debug\net10.0\webcil\Microsoft.IdentityModel.Tokens.wasm
 D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\obj\Debug\net10.0\webcil\Microsoft.JSInterop.wasm
 D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\obj\Debug\net10.0\webcil\Microsoft.JSInterop.WebAssembly.wasm
-D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\obj\Debug\net10.0\webcil\QrCodeGenerator.wasm
 D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\obj\Debug\net10.0\webcil\System.IdentityModel.Tokens.Jwt.wasm
 D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\obj\Debug\net10.0\webcil\Microsoft.CSharp.wasm
 D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\obj\Debug\net10.0\webcil\Microsoft.VisualBasic.Core.wasm
@@ -1989,7 +1979,6 @@ D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\obj\Debug\n
 D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\obj\Debug\net10.0\dotnet.js
 D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\obj\Debug\net10.0\staticwebassets\htmlassetplaceholders\build\iq5k1f32u4.html
 D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\obj\Debug\net10.0\compressed\yzmpdg6mt2-{0}-99zm1jdh75-99zm1jdh75.gz
-D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\obj\Debug\net10.0\compressed\x4055n5tnn-{0}-catkjw9f4r-catkjw9f4r.gz
 D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\obj\Debug\net10.0\compressed\j70di64c3t-{0}-66stpp682q-66stpp682q.gz
 D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\obj\Debug\net10.0\compressed\xqec8eu9kt-{0}-f7yamg8acn-f7yamg8acn.gz
 D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\obj\Debug\net10.0\compressed\o162ny15r6-{0}-i180xx2qq9-i180xx2qq9.gz
@@ -2022,7 +2011,6 @@ D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\obj\Debug\n
 D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\obj\Debug\net10.0\compressed\g7ke63smvv-{0}-fn7letqu83-fn7letqu83.gz
 D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\obj\Debug\net10.0\compressed\sewnhxj4fx-{0}-kksrzpvoig-kksrzpvoig.gz
 D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\obj\Debug\net10.0\compressed\cvfl2cr934-{0}-9udcqny0aq-9udcqny0aq.gz
-D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\obj\Debug\net10.0\compressed\6wfjqder6g-{0}-gjmcx4qi2r-gjmcx4qi2r.gz
 D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\obj\Debug\net10.0\compressed\m26i4y34kq-{0}-x1rkvb1o0u-x1rkvb1o0u.gz
 D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\obj\Debug\net10.0\compressed\qtt7x6ylep-{0}-6q6v6mynmi-6q6v6mynmi.gz
 D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\obj\Debug\net10.0\compressed\bswbbg8j4w-{0}-7ahatwz856-7ahatwz856.gz
@@ -2205,10 +2193,6 @@ D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\obj\Debug\n
 D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\obj\Debug\net10.0\compressed\uhp3xkt07w-{0}-tptq2av103-tptq2av103.gz
 D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\obj\Debug\net10.0\compressed\v4a1lmlfmy-{0}-lfu7j35m59-lfu7j35m59.gz
 D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\obj\Debug\net10.0\compressed\72vz3nt0vo-{0}-ccsptreuls-ccsptreuls.gz
-D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\obj\Debug\net10.0\compressed\1uii4srsug-{0}-sasad2yyeo-sasad2yyeo.gz
-D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\obj\Debug\net10.0\compressed\laxaraz9qb-{0}-a30wfp29mb-a30wfp29mb.gz
-D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\obj\Debug\net10.0\compressed\tebsw65wsr-{0}-afp517vq8s-afp517vq8s.gz
-D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\obj\Debug\net10.0\compressed\et3dtt53ux-{0}-g5538630c5-g5538630c5.gz
 D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\obj\Debug\net10.0\staticwebassets.build.json
 D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\obj\Debug\net10.0\staticwebassets.build.json.cache
 D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\obj\Debug\net10.0\staticwebassets.development.json
@@ -2219,3 +2203,14 @@ D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\obj\Debug\n
 D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\obj\Debug\net10.0\refint\TsuOrg.Static.dll
 D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\obj\Debug\net10.0\TsuOrg.Static.pdb
 D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\obj\Debug\net10.0\ref\TsuOrg.Static.dll
+D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\bin\Debug\net10.0\wwwroot\_framework\TsuOrg.Static.mws2xez4zl.wasm
+D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\bin\Debug\net10.0\wwwroot\_framework\TsuOrg.Static.ohsdem3fm2.pdb
+D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\bin\Debug\net10.0\wwwroot\_framework\dotnet.v7ptatk6py.js
+D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\bin\Debug\net10.0\wwwroot\_framework\TsuOrg.Static.mws2xez4zl.wasm.gz
+D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\bin\Debug\net10.0\wwwroot\_framework\TsuOrg.Static.ohsdem3fm2.pdb.gz
+D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\bin\Debug\net10.0\wwwroot\_framework\dotnet.v7ptatk6py.js.gz
+D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\obj\Debug\net10.0\compressed\x4055n5tnn-{0}-1yztg59agz-1yztg59agz.gz
+D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\obj\Debug\net10.0\compressed\1uii4srsug-{0}-mws2xez4zl-mws2xez4zl.gz
+D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\obj\Debug\net10.0\compressed\laxaraz9qb-{0}-ohsdem3fm2-ohsdem3fm2.gz
+D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\obj\Debug\net10.0\compressed\tebsw65wsr-{0}-v7ptatk6py-v7ptatk6py.gz
+D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\obj\Debug\net10.0\compressed\et3dtt53ux-{0}-j56vuj3hx0-j56vuj3hx0.gz

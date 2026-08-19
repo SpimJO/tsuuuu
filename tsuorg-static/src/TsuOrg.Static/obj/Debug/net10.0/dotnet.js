@@ -5,7 +5,7 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
   "mainAssemblyName": "TsuOrg.Static",
   "applicationEnvironment": "Development",
   "resources": {
-    "hash": "sha256-yf1YULlHWiYelthZDJUDTABljQ4mBr4ql4aH6fU9rOM=",
+    "hash": "sha256-GKx86i0XThVnPPuG3z2h2QOEhc2ceOVgNsY0oZwdBKk=",
     "jsModuleNative": [
       {
         "name": "dotnet.native.puryxhmhq9.js"
@@ -242,12 +242,6 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
         "virtualPath": "Microsoft.JSInterop.WebAssembly.wasm",
         "name": "Microsoft.JSInterop.WebAssembly.9udcqny0aq.wasm",
         "hash": "sha256-EQfaQose2do/RGDJFP6YWTTeOWA2gufnJurZZZh2XLU=",
-        "cache": "force-cache"
-      },
-      {
-        "virtualPath": "QrCodeGenerator.wasm",
-        "name": "QrCodeGenerator.gjmcx4qi2r.wasm",
-        "hash": "sha256-5JH4C+eyNZb9aLAgqnkwgIn+4G/EoH9cdH6Qr4FAu7g=",
         "cache": "force-cache"
       },
       {
@@ -1284,16 +1278,16 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
       },
       {
         "virtualPath": "TsuOrg.Static.wasm",
-        "name": "TsuOrg.Static.sasad2yyeo.wasm",
-        "hash": "sha256-xMLMFziwtGJB7ZlOann09iPPpnobaxBJr/dziTWisDE=",
+        "name": "TsuOrg.Static.mws2xez4zl.wasm",
+        "hash": "sha256-Khis/AyES2nIJYgdA4Ls8n4Zbxr0/2kAjbuYedRj8tU=",
         "cache": "force-cache"
       }
     ],
     "pdb": [
       {
         "virtualPath": "TsuOrg.Static.pdb",
-        "name": "TsuOrg.Static.a30wfp29mb.pdb",
-        "hash": "sha256-dpuRrCiwh0ZGRJayPYj6jfEGLy4n5AX8/qrjli39Ods=",
+        "name": "TsuOrg.Static.ohsdem3fm2.pdb",
+        "hash": "sha256-hFhk6u4MKe3CwR0ePj3IKTbw2303qls4UZOl9cca3ac=",
         "cache": "force-cache"
       }
     ],
