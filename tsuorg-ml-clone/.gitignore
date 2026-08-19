@@ -1,0 +1,10 @@
+# tsuorg-ml-clone — Label Studio for teammates
+.venv/
+venv/
+__pycache__/
+*.pyc
+.env
+label-studio-data/
+exports/
+.DS_Store
+Thumbs.db

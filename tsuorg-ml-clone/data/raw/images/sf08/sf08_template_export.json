@@ -1,0 +1,858 @@
+{
+    "id": 1,
+    "data": {
+      "image": "http://127.0.0.1:9090/sf08/220-sf08__page-1.png",
+      "doc_type_hint": "SF08"
+    },
+    "annotations": [
+      {
+        "id": 1,
+        "result": [
+          {
+            "value": {
+              "choices": [
+                "SF08"
+              ]
+            },
+            "id": "cb56e9da-9",
+            "from_name": "doc_type",
+            "to_name": "image",
+            "type": "choices",
+            "origin": "prediction"
+          },
+          {
+            "original_width": 2480,
+            "original_height": 3509,
+            "image_rotation": 0,
+            "value": {
+              "x": 12.952827108833734,
+              "y": 45.606013588855056,
+              "width": 17.28910837503722,
+              "height": 10.934311290027782,
+              "rotation": 0,
+              "labels": [
+                "ACTIVITY_TITLE"
+              ]
+            },
+            "id": "76355126-1",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "prediction-changed"
+          },
+          {
+            "original_width": 2480,
+            "original_height": 3509,
+            "image_rotation": 0,
+            "value": {
+              "x": 12.952827108833734,
+              "y": 45.606013588855056,
+              "width": 17.28910837503722,
+              "height": 10.934311290027782,
+              "rotation": 0,
+              "text": [
+                "Web and App Development Team Recruitment Assessment"
+              ]
+            },
+            "id": "76355126-1",
+            "from_name": "transcription",
+            "to_name": "image",
+            "type": "textarea",
+            "origin": "prediction-changed"
+          },
+          {
+            "original_width": 2480,
+            "original_height": 3509,
+            "image_rotation": 0,
+            "value": {
+              "x": 45.51728286201814,
+              "y": 46.79595386546087,
+              "width": 11.942738916691454,
+              "height": 9.568679788314475,
+              "rotation": 0,
+              "labels": [
+                "VENUE"
+              ]
+            },
+            "id": "a76ea1e4-4",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "prediction-changed"
+          },
+          {
+            "original_width": 2480,
+            "original_height": 3509,
+            "image_rotation": 0,
+            "value": {
+              "x": 45.51728286201814,
+              "y": 46.79595386546087,
+              "width": 11.942738916691454,
+              "height": 9.568679788314475,
+              "rotation": 0,
+              "text": [
+                "July 28, 2026"
+              ]
+            },
+            "id": "a76ea1e4-4",
+            "from_name": "transcription",
+            "to_name": "image",
+            "type": "textarea",
+            "origin": "prediction-changed"
+          },
+          {
+            "original_width": 2480,
+            "original_height": 3509,
+            "image_rotation": 0,
+            "value": {
+              "x": 58.5472030790901,
+              "y": 47.14120895734992,
+              "width": 14.390274279967045,
+              "height": 9.952692271719572,
+              "rotation": 0,
+              "labels": [
+                "PARTICIPANTS"
+              ]
+            },
+            "id": "3d4cad59-0",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "prediction-changed"
+          },
+          {
+            "original_width": 2480,
+            "original_height": 3509,
+            "image_rotation": 0,
+            "value": {
+              "x": 58.5472030790901,
+              "y": 47.14120895734992,
+              "width": 14.390274279967045,
+              "height": 9.952692271719572,
+              "rotation": 0,
+              "text": [
+                "N/A"
+              ]
+            },
+            "id": "3d4cad59-0",
+            "from_name": "transcription",
+            "to_name": "image",
+            "type": "textarea",
+            "origin": "prediction-changed"
+          },
+          {
+            "original_width": 2480,
+            "original_height": 3509,
+            "image_rotation": 0,
+            "value": {
+              "x": 74.51815270827129,
+              "y": 47.55699690881969,
+              "width": 15.124175435632859,
+              "height": 9.514960813518,
+              "rotation": 0,
+              "labels": [
+                "ACTIVITY_MODE"
+              ]
+            },
+            "id": "6432335b-3",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "prediction-changed"
+          },
+          {
+            "original_width": 2480,
+            "original_height": 3509,
+            "image_rotation": 0,
+            "value": {
+              "x": 74.51815270827129,
+              "y": 47.55699690881969,
+              "width": 15.124175435632859,
+              "height": 9.514960813518,
+              "rotation": 0,
+              "text": [
+                "Face-to-face"
+              ]
+            },
+            "id": "6432335b-3",
+            "from_name": "transcription",
+            "to_name": "image",
+            "type": "textarea",
+            "origin": "prediction-changed"
+          },
+          {
+            "original_width": 2480,
+            "original_height": 3509,
+            "image_rotation": 0,
+            "value": {
+              "x": 15.48387096774193,
+              "y": 14.676546024508403,
+              "width": 73.46774193548387,
+              "height": 3.3076374254704097,
+              "rotation": 0,
+              "labels": [
+                "FORM_TITLE"
+              ]
+            },
+            "id": "1b4ff82f-4",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "prediction-changed"
+          },
+          {
+            "original_width": 2480,
+            "original_height": 3509,
+            "image_rotation": 0,
+            "value": {
+              "x": 15.48387096774193,
+              "y": 14.676546024508403,
+              "width": 73.46774193548387,
+              "height": 3.3076374254704097,
+              "rotation": 0,
+              "text": [
+                "REQUEST FOR THE CONDUCT OF STUDENT ACTIVITY WITH BUDGETARY ALLOTMENT"
+              ]
+            },
+            "id": "1b4ff82f-4",
+            "from_name": "transcription",
+            "to_name": "image",
+            "type": "textarea",
+            "origin": "prediction-changed"
+          },
+          {
+            "original_width": 2480,
+            "original_height": 3509,
+            "image_rotation": 0,
+            "value": {
+              "x": 13.629032258064516,
+              "y": 18.8942718723283,
+              "width": 13.830645161290322,
+              "height": 1.310914790538615,
+              "rotation": 0,
+              "labels": [
+                "DATE_PROPOSAL"
+              ]
+            },
+            "id": "bf418a2a-2",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "prediction-changed"
+          },
+          {
+            "original_width": 2480,
+            "original_height": 3509,
+            "image_rotation": 0,
+            "value": {
+              "x": 13.629032258064516,
+              "y": 18.8942718723283,
+              "width": 13.830645161290322,
+              "height": 1.310914790538615,
+              "rotation": 0,
+              "text": [
+                "07/12/2026"
+              ]
+            },
+            "id": "bf418a2a-2",
+            "from_name": "transcription",
+            "to_name": "image",
+            "type": "textarea",
+            "origin": "prediction-changed"
+          },
+          {
+            "original_width": 2480,
+            "original_height": 3509,
+            "image_rotation": 0,
+            "value": {
+              "x": 15.78325480856082,
+              "y": 30.37902536335138,
+              "width": 17.13453531908968,
+              "height": 1.5118268428222608,
+              "rotation": 0,
+              "labels": [
+                "ORG_NAME"
+              ]
+            },
+            "id": "24bab7bf-7",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "prediction-changed"
+          },
+          {
+            "original_width": 2480,
+            "original_height": 3509,
+            "image_rotation": 0,
+            "value": {
+              "x": 15.78325480856082,
+              "y": 30.37902536335138,
+              "width": 17.13453531908968,
+              "height": 1.5118268428222608,
+              "rotation": 0,
+              "text": [
+                "Programmers’ Den"
+              ]
+            },
+            "id": "24bab7bf-7",
+            "from_name": "transcription",
+            "to_name": "image",
+            "type": "textarea",
+            "origin": "prediction-changed"
+          },
+          {
+            "original_width": 2480,
+            "original_height": 3509,
+            "image_rotation": 0,
+            "value": {
+              "x": 12.120810656219936,
+              "y": 26.951838442888953,
+              "width": 78.18084451009928,
+              "height": 17.827158411158834,
+              "rotation": 0,
+              "labels": [
+                "OBJECTIVES"
+              ]
+            },
+            "id": "10607db6-0",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "prediction-changed"
+          },
+          {
+            "original_width": 2480,
+            "original_height": 3509,
+            "image_rotation": 0,
+            "value": {
+              "x": 12.120810656219936,
+              "y": 26.951838442888953,
+              "width": 78.18084451009928,
+              "height": 17.827158411158834,
+              "rotation": 0,
+              "text": [
+                "The Programmers’ Den respectfully requests approval for the conduct of the Web and App Development Team Recruitment Assessment as part of the organization's General Recru itment. Applicants will be tasked with creating a simple website that demonstrates their understanding of web development concepts and design. Through this activity, applicants will showcase their technical skills and development approach, allowing the organization to assess their readiness for the Web and App Development Team. In line with this, we humbly seek your Support and approval for the conduct of this recruitment assessment."
+              ]
+            },
+            "id": "10607db6-0",
+            "from_name": "transcription",
+            "to_name": "image",
+            "type": "textarea",
+            "origin": "prediction-changed"
+          },
+          {
+            "original_width": 2480,
+            "original_height": 3509,
+            "image_rotation": 0,
+            "value": {
+              "x": 10.550006037584769,
+              "y": 61.46808166189379,
+              "width": 26.902760695401284,
+              "height": 5.219863353919155,
+              "rotation": 0,
+              "labels": [
+                "ORG_OFFICER_SIGNATURE"
+              ]
+            },
+            "id": "6c18de3b-9",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "prediction-changed"
+          },
+          {
+            "original_width": 2480,
+            "original_height": 3509,
+            "image_rotation": 0,
+            "value": {
+              "x": 10.550006037584769,
+              "y": 61.46808166189379,
+              "width": 26.902760695401284,
+              "height": 5.219863353919155,
+              "rotation": 0,
+              "text": [
+                "Sincerely yours,"
+              ]
+            },
+            "id": "6c18de3b-9",
+            "from_name": "transcription",
+            "to_name": "image",
+            "type": "textarea",
+            "origin": "prediction-changed"
+          },
+          {
+            "original_width": 2480,
+            "original_height": 3509,
+            "image_rotation": 0,
+            "value": {
+              "x": 51.393173948329476,
+              "y": 59.88857199737267,
+              "width": 33.07369814090134,
+              "height": 8.644913861568329,
+              "rotation": 0,
+              "labels": [
+                "ADVISER_SIGNATURE"
+              ]
+            },
+            "id": "24c599ff-3",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "prediction-changed"
+          },
+          {
+            "original_width": 2480,
+            "original_height": 3509,
+            "image_rotation": 0,
+            "value": {
+              "x": 51.393173948329476,
+              "y": 59.88857199737267,
+              "width": 33.07369814090134,
+              "height": 8.644913861568329,
+              "rotation": 0,
+              "text": [
+                "President, Programmers’ Den Dean*/A fivsers"
+              ]
+            },
+            "id": "24c599ff-3",
+            "from_name": "transcription",
+            "to_name": "image",
+            "type": "textarea",
+            "origin": "prediction-changed"
+          },
+          {
+            "original_width": 2480,
+            "original_height": 3509,
+            "image_rotation": 0,
+            "value": {
+              "x": 8.172997455533471,
+              "y": 71.10330559547225,
+              "width": 33.51650357953684,
+              "height": 8.400969360946355,
+              "rotation": 0,
+              "labels": [
+                "SAS_SIGNATURE"
+              ]
+            },
+            "id": "225f940b-7",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "prediction-changed"
+          },
+          {
+            "original_width": 2480,
+            "original_height": 3509,
+            "image_rotation": 0,
+            "value": {
+              "x": 8.172997455533471,
+              "y": 71.10330559547225,
+              "width": 33.51650357953684,
+              "height": 8.400969360946355,
+              "rotation": 0,
+              "text": [
+                "Approved: | Director, Studertt Affairs Services"
+              ]
+            },
+            "id": "225f940b-7",
+            "from_name": "transcription",
+            "to_name": "image",
+            "type": "textarea",
+            "origin": "prediction-changed"
+          },
+          {
+            "original_width": 2480,
+            "original_height": 3509,
+            "image_rotation": 0,
+            "value": {
+              "x": 32.70161290322576,
+              "y": 46.18395620109255,
+              "width": 11.249999999999988,
+              "height": 10.7926751170511,
+              "rotation": 0,
+              "labels": [
+                "ACTIVITY_DATE"
+              ]
+            },
+            "id": "i9f_1B-9TN",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "origin": "prediction-changed"
+          },
+          {
+            "original_width": 2480,
+            "original_height": 3509,
+            "image_rotation": 0,
+            "value": {
+              "x": 32.70161290322576,
+              "y": 46.18395620109255,
+              "width": 11.249999999999988,
+              "height": 10.7926751170511,
+              "rotation": 0,
+              "text": [
+                "July 28, 2026"
+              ]
+            },
+            "id": "i9f_1B-9TN",
+            "from_name": "transcription",
+            "to_name": "image",
+            "type": "textarea",
+            "origin": "prediction-changed"
+          }
+        ],
+        "created_username": " pangthesislang123@gmail.com, 1",
+        "created_ago": "2 minutes",
+        "completed_by": {
+          "id": 1,
+          "first_name": "",
+          "last_name": "",
+          "avatar": null,
+          "email": "pangthesislang123@gmail.com",
+          "initials": "pa"
+        },
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2026-08-17T13:56:38.733280Z",
+        "updated_at": "2026-08-17T13:56:38.733280Z",
+        "draft_created_at": "2026-08-17T13:53:27.078309Z",
+        "lead_time": 203.737,
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 1,
+        "project": 6,
+        "updated_by": 1,
+        "parent_prediction": 1146,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "predictions": [
+      {
+        "id": 1146,
+        "result": [
+          {
+            "id": "cb56e9da-9",
+            "from_name": "doc_type",
+            "to_name": "image",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "SF08"
+              ]
+            }
+          },
+          {
+            "id": "76355126-1",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "x": 13.991935483870968,
+              "y": 50.86919350242234,
+              "width": 16.25,
+              "height": 5.67113137646053,
+              "rotation": 0,
+              "rectanglelabels": [
+                "ACTIVITY_TITLE"
+              ]
+            }
+          },
+          {
+            "id": "76355126-1",
+            "from_name": "transcription",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Web and App Development Team Recruitment Assessment"
+              ]
+            }
+          },
+          {
+            "id": "a76ea1e4-4",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "x": 32.70161290322581,
+              "y": 53.40552864063836,
+              "width": 11.25,
+              "height": 1.3679110857794243,
+              "rotation": 0,
+              "rectanglelabels": [
+                "ACTIVITY_DATE"
+              ]
+            }
+          },
+          {
+            "id": "a76ea1e4-4",
+            "from_name": "transcription",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "July 28, 2026"
+              ]
+            }
+          },
+          {
+            "id": "3d4cad59-0",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "x": 64.43548387096774,
+              "y": 54.117982331148475,
+              "width": 3.306451612903226,
+              "height": 1.139925904816187,
+              "rotation": 0,
+              "rectanglelabels": [
+                "PARTICIPANTS"
+              ]
+            }
+          },
+          {
+            "id": "3d4cad59-0",
+            "from_name": "transcription",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "N/A"
+              ]
+            }
+          },
+          {
+            "id": "6432335b-3",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "x": 76.25,
+              "y": 54.288971216870905,
+              "width": 10.96774193548387,
+              "height": 1.6813907096038758,
+              "rotation": 0,
+              "rectanglelabels": [
+                "ACTIVITY_MODE"
+              ]
+            }
+          },
+          {
+            "id": "6432335b-3",
+            "from_name": "transcription",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Face-to-face"
+              ]
+            }
+          },
+          {
+            "id": "1b4ff82f-4",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "x": 15.483870967741936,
+              "y": 14.676546024508408,
+              "width": 73.46774193548387,
+              "height": 2.450840695354802,
+              "rotation": 0,
+              "rectanglelabels": [
+                "FORM_TITLE"
+              ]
+            }
+          },
+          {
+            "id": "1b4ff82f-4",
+            "from_name": "transcription",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "REQUEST FOR THE CONDUCT OF STUDENT ACTIVITY WITH BUDGETARY ALLOTMENT"
+              ]
+            }
+          },
+          {
+            "id": "bf418a2a-2",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "x": 13.629032258064516,
+              "y": 18.8942718723283,
+              "width": 13.830645161290322,
+              "height": 1.310914790538615,
+              "rotation": 0,
+              "rectanglelabels": [
+                "DATE_PROPOSAL"
+              ]
+            }
+          },
+          {
+            "id": "bf418a2a-2",
+            "from_name": "transcription",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "07/12/2026"
+              ]
+            }
+          },
+          {
+            "id": "24bab7bf-7",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "x": 13.185483870967742,
+              "y": 30.37902536335138,
+              "width": 77.05645161290323,
+              "height": 2.7358221715588487,
+              "rotation": 0,
+              "rectanglelabels": [
+                "ORG_NAME"
+              ]
+            }
+          },
+          {
+            "id": "24bab7bf-7",
+            "from_name": "transcription",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Programmers’ Den"
+              ]
+            }
+          },
+          {
+            "id": "10607db6-0",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "x": 12.580645161290322,
+              "y": 30.37902536335138,
+              "width": 77.66129032258064,
+              "height": 14.277571957822742,
+              "rotation": 0,
+              "rectanglelabels": [
+                "OBJECTIVES"
+              ]
+            }
+          },
+          {
+            "id": "10607db6-0",
+            "from_name": "transcription",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "The Programmers’ Den respectfully requests approval for the conduct of the Web and App Development Team Recruitment Assessment as part of the organization's General Recru itment. Applicants will be tasked with creating a simple website that demonstrates their understanding of web development concepts and design. Through this activity, applicants will showcase their technical skills and development approach, allowing the organization to assess their readiness for the Web and App Development Team. In line with this, we humbly seek your Support and approval for the conduct of this recruitment assessment."
+              ]
+            }
+          },
+          {
+            "id": "6c18de3b-9",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "x": 11.935483870967742,
+              "y": 56.93929894556854,
+              "width": 12.701612903225806,
+              "height": 6.811057281276717,
+              "rotation": 0,
+              "rectanglelabels": [
+                "ORG_OFFICER_SIGNATURE"
+              ]
+            }
+          },
+          {
+            "id": "6c18de3b-9",
+            "from_name": "transcription",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Sincerely yours,"
+              ]
+            }
+          },
+          {
+            "id": "24c599ff-3",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "x": 11.733870967741936,
+              "y": 57.19578227415218,
+              "width": 58.185483870967744,
+              "height": 17.212881162724422,
+              "rotation": 0,
+              "rectanglelabels": [
+                "ADVISER_SIGNATURE"
+              ]
+            }
+          },
+          {
+            "id": "24c599ff-3",
+            "from_name": "transcription",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "President, Programmers’ Den Dean*/A fivsers"
+              ]
+            }
+          },
+          {
+            "id": "225f940b-7",
+            "from_name": "label",
+            "to_name": "image",
+            "type": "rectanglelabels",
+            "value": {
+              "x": 11.290322580645162,
+              "y": 69.02251353662012,
+              "width": 26.93548387096774,
+              "height": 13.05215161014534,
+              "rotation": 0,
+              "rectanglelabels": [
+                "SAS_SIGNATURE"
+              ]
+            }
+          },
+          {
+            "id": "225f940b-7",
+            "from_name": "transcription",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "Approved: | Director, Studertt Affairs Services"
+              ]
+            }
+          }
+        ],
+        "model_version": "tsu-sf08-prelabel-v2",
+        "created_ago": "6 minutes",
+        "score": 0.75,
+        "cluster": null,
+        "neighbors": null,
+        "mislabeling": 0,
+        "created_at": "2026-08-17T13:53:12.262296Z",
+        "updated_at": "2026-08-17T13:53:12.262296Z",
+        "model": null,
+        "model_run": null,
+        "task": 1,
+        "project": 6
+      }
+    ]
+  }
