@@ -198,7 +198,7 @@ public sealed class MockStore
                 doc.Stage = "Adviser";
                 doc.AssignedTo = doc.AdviserName;
             }
-            AddEvent(doc, "Submission confirmed", "Metadata locked. SHA-256 generated.", "Officer", "Submitted", u);
+            AddEvent(doc, "Submission confirmed", "Metadata locked. Verification QR code generated.", "Officer", "Submitted", u);
             AddAudit(doc, "Confirmed", "Confirm", "Confirmed", u?.FullName ?? "Officer", RoleLabel(u?.Role));
             return new ConfirmSubmissionResult(
                 doc.Id, doc.Number, doc.Status, doc.Stage, true, doc.Hash!, doc.LockedAt.Value,
@@ -706,7 +706,7 @@ public sealed class MockStore
 
     private void SeedTimelinesAndAudit()
     {
-        Event("doc-001", "2026-08-12T09:20:00+08:00", "Submission confirmed", "Metadata locked. SHA-256 generated.", "Officer", "Submitted");
+        Event("doc-001", "2026-08-12T09:20:00+08:00", "Submission confirmed", "Metadata locked. Verification QR code generated.", "Officer", "Submitted");
         Event("doc-001", "2026-08-12T09:22:00+08:00", "OCR scanning complete", "Tesseract v5 average confidence 94%.", "Calsv", "Submitted");
         Event("doc-001", "2026-08-12T09:24:00+08:00", "AI validation complete", "CALSV class: Valid Submission · 91%.", "Calsv", "AiValidated");
         Event("doc-001", "2026-08-12T09:28:00+08:00", "Routed to Adviser", "Package queued for Adviser Demo.", "Adviser", "UnderReview");

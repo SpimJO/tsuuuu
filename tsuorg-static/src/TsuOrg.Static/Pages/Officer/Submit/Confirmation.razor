@@ -20,11 +20,11 @@
     <p class="hint">
         @if (_confirmed || (_doc?.IsMetadataLocked ?? false))
         {
-            <text>Metadata is locked. Audit trail (SHA-256) is generated. Your submission is uneditable.</text>
+            <text>Metadata is locked. A verification QR code is generated. Your submission is uneditable.</text>
         }
         else
         {
-            <text>Confirming will lock metadata, generate the SHA-256 audit trail, and send this package to the Adviser review queue. No further edits can be made.</text>
+            <text>Confirming will lock metadata, generate a verification QR code, and send this package to the Adviser review queue. No further edits can be made.</text>
         }
     </p>
 
@@ -75,11 +75,9 @@
             </div>
         </div>
 
-        @if (_metadataLocked && !string.IsNullOrWhiteSpace(_lockHash))
+        @if (_metadataLocked && !string.IsNullOrWhiteSpace(QrPayload))
         {
-            <p class="hash-line" title="@_lockHash">
-                SHA-256: <code>@_lockHash</code>
-            </p>
+            <DocumentQrCode Payload="@QrPayload" Caption="Scan to verify this submission" />
         }
 
         @if (!_canConfirm && !_metadataLocked)
@@ -91,7 +89,7 @@
 
         <p class="hint" style="margin-top:1rem;">
             Confirming your submission will send the document for official university review.
-            No further edits can be made. Audit Trail and Metadata Locked. Your submission is definitive.
+            No further edits can be made. Verification QR and metadata are locked. Your submission is definitive.
         </p>
 
         <div class="wizard-actions">
@@ -124,7 +122,6 @@
     private bool _confirmed;
     private string? _error;
     private string? _success;
-    private string? _lockHash;
     private string? _validationStatusOverride;
 
     private string DocumentId =>
@@ -141,8 +138,12 @@
     private bool _metadataLocked =>
         _confirmed || (_doc?.IsMetadataLocked ?? false);
 
-    private bool _auditCreated =>
-        _metadataLocked || !string.IsNullOrWhiteSpace(_doc?.MetadataLockHash);
+    private bool _auditCreated => _metadataLocked;
+
+    private string? QrPayload =>
+        _metadataLocked
+            ? DocumentQr.Payload(DocumentId, Subject, Organization)
+            : null;
 
     private string ValidationStatusLabel
     {
@@ -208,7 +209,6 @@
         try
         {
             _doc = await Api.GetDocumentAsync(Wizard.DocumentId!.Value);
-            _lockHash = _doc?.MetadataLockHash;
             if (_doc?.IsMetadataLocked == true)
                 _confirmed = true;
         }
@@ -233,7 +233,6 @@
         {
             var result = await Api.ConfirmSubmissionAsync(Wizard.DocumentId.Value);
             _confirmed = true;
-            _lockHash = result.MetadataLockHash;
             _validationStatusOverride = result.ValidationStatus;
             _success = result.Message;
             _doc = await Api.GetDocumentAsync(Wizard.DocumentId.Value);

@@ -84,21 +84,21 @@ else
 
         <h5 class="review-section-label">Document Integrity</h5>
         <div class="integrity-box">
-            @if (!string.IsNullOrWhiteSpace(_doc.MetadataLockHash))
+            @if (_doc.IsMetadataLocked)
             {
-                <code>SHA-256: @_doc.MetadataLockHash</code>
+                <DocumentQrCode Payload="@ReviewQrPayload" Caption="@_doc.DocumentNumber" />
                 <span>
                     Generated: @(_doc.MetadataLockedAt?.ToLocalTime().ToString("MMM d, yyyy") ?? "—")
                     · Status: @StatusLabel
                     · Version: @VersionLabel
-                    · Locked: @(_doc.IsMetadataLocked ? "Yes" : "No")
+                    · Locked: Yes
                 </span>
             }
             else
             {
                 <span class="val-muted">
                     Status: @StatusLabel · Version: @VersionLabel · Locked: No
-                    — metadata hash not generated yet.
+                    — verification QR not generated yet.
                 </span>
             }
         </div>
@@ -326,6 +326,9 @@ else
         (var status, _) when !string.IsNullOrWhiteSpace(status) => status,
         _ => "—",
     };
+
+    private string? ReviewQrPayload =>
+        _doc is null ? null : DocumentQr.Payload(_doc.DocumentNumber, _doc.Title, _doc.OrganizationName);
 
     private string VersionLabel
     {

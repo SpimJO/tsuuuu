@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Development\\projects\\tsuorg\\tsuorg-static\\src\\TsuOrg.Static\\TsuOrg.Static.csproj": {}
+    "D:\\Development\\projects\\tsuorg-clone\\tsuorg-static\\src\\TsuOrg.Static\\TsuOrg.Static.csproj": {}
   },
   "projects": {
-    "d:\\Development\\projects\\tsuorg\\tsuorg-static\\src\\TsuOrg.Static\\TsuOrg.Static.csproj": {
+    "D:\\Development\\projects\\tsuorg-clone\\tsuorg-static\\src\\TsuOrg.Static\\TsuOrg.Static.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Development\\projects\\tsuorg\\tsuorg-static\\src\\TsuOrg.Static\\TsuOrg.Static.csproj",
+        "projectUniqueName": "D:\\Development\\projects\\tsuorg-clone\\tsuorg-static\\src\\TsuOrg.Static\\TsuOrg.Static.csproj",
         "projectName": "TsuOrg.Static",
-        "projectPath": "d:\\Development\\projects\\tsuorg\\tsuorg-static\\src\\TsuOrg.Static\\TsuOrg.Static.csproj",
-        "packagesPath": "C:\\Users\\11rya\\AppData\\Local\\Temp\\cursor-sandbox-cache\\01a648e0ce61fd20f02de140145348e1\\nuget",
-        "outputPath": "d:\\Development\\projects\\tsuorg\\tsuorg-static\\src\\TsuOrg.Static\\obj\\",
+        "projectPath": "D:\\Development\\projects\\tsuorg-clone\\tsuorg-static\\src\\TsuOrg.Static\\TsuOrg.Static.csproj",
+        "packagesPath": "C:\\Users\\11rya\\AppData\\Local\\Temp\\cursor-sandbox-cache\\38821e76e6656f47198641741bccbd04\\nuget",
+        "outputPath": "D:\\Development\\projects\\tsuorg-clone\\tsuorg-static\\src\\TsuOrg.Static\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\11rya\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -76,6 +76,10 @@
               "target": "Package",
               "version": "[10.0.10, )",
               "autoReferenced": true
+            },
+            "Net.Codecrete.QrCodeGenerator": {
+              "target": "Package",
+              "version": "[2.0.7, )"
             },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",

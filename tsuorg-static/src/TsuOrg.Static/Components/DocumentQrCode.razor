@@ -1,0 +1,15 @@
+@if (!string.IsNullOrWhiteSpace(Payload))
+{
+    <div class="doc-qr-wrap">
+        <div class="doc-qr" title="@Caption">@((MarkupString)DocumentQr.Svg(Payload))</div>
+        @if (!string.IsNullOrWhiteSpace(Caption))
+        {
+            <p class="doc-qr-caption">@Caption</p>
+        }
+    </div>
+}
+
+@code {
+    [Parameter] public string? Payload { get; set; }
+    [Parameter] public string? Caption { get; set; }
+}
