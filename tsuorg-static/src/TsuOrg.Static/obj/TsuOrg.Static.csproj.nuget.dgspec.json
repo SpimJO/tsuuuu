@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Development\\projects\\tsuorg\\tsuorg-static\\src\\TsuOrg.Static\\TsuOrg.Static.csproj": {}
+    "C:\\Users\\John Lloyd\\Desktop\\CP2SYSTEM\\tsuuuu\\tsuorg-static\\src\\TsuOrg.Static\\TsuOrg.Static.csproj": {}
   },
   "projects": {
-    "d:\\Development\\projects\\tsuorg\\tsuorg-static\\src\\TsuOrg.Static\\TsuOrg.Static.csproj": {
+    "C:\\Users\\John Lloyd\\Desktop\\CP2SYSTEM\\tsuuuu\\tsuorg-static\\src\\TsuOrg.Static\\TsuOrg.Static.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Development\\projects\\tsuorg\\tsuorg-static\\src\\TsuOrg.Static\\TsuOrg.Static.csproj",
+        "projectUniqueName": "C:\\Users\\John Lloyd\\Desktop\\CP2SYSTEM\\tsuuuu\\tsuorg-static\\src\\TsuOrg.Static\\TsuOrg.Static.csproj",
         "projectName": "TsuOrg.Static",
-        "projectPath": "d:\\Development\\projects\\tsuorg\\tsuorg-static\\src\\TsuOrg.Static\\TsuOrg.Static.csproj",
-        "packagesPath": "C:\\Users\\11rya\\AppData\\Local\\Temp\\cursor-sandbox-cache\\01a648e0ce61fd20f02de140145348e1\\nuget",
-        "outputPath": "d:\\Development\\projects\\tsuorg\\tsuorg-static\\src\\TsuOrg.Static\\obj\\",
+        "projectPath": "C:\\Users\\John Lloyd\\Desktop\\CP2SYSTEM\\tsuuuu\\tsuorg-static\\src\\TsuOrg.Static\\TsuOrg.Static.csproj",
+        "packagesPath": "C:\\Users\\John Lloyd\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\John Lloyd\\Desktop\\CP2SYSTEM\\tsuuuu\\tsuorg-static\\src\\TsuOrg.Static\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\11rya\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\John Lloyd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,7 +45,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.300"
+        "SdkAnalysisLevel": "10.0.400"
       },
       "frameworks": {
         "net10.0": {
@@ -49,7 +55,7 @@
             "Microsoft.AspNetCore.App.Internal.Assets": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[10.0.10, )",
+              "version": "[10.0.11, )",
               "autoReferenced": true
             },
             "Microsoft.AspNetCore.Components.Authorization": {
@@ -68,13 +74,13 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[10.0.10, )",
+              "version": "[10.0.11, )",
               "autoReferenced": true
             },
             "Microsoft.NET.Sdk.WebAssembly.Pack": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[10.0.10, )",
+              "version": "[10.0.11, )",
               "autoReferenced": true
             },
             "System.IdentityModel.Tokens.Jwt": {
@@ -96,7 +102,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[10.0.10, 10.0.10]"
+              "version": "[10.0.11, 10.0.11]"
             }
           ],
           "frameworkReferences": {
@@ -104,7 +110,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.302/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
