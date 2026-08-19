@@ -196,7 +196,7 @@ public sealed class MockStore
                 doc.Stage = "Adviser";
                 doc.AssignedTo = doc.AdviserName;
             }
-            AddEvent(doc, "Submission confirmed", "Metadata locked.", "Officer", "Submitted", u);
+            AddEvent(doc, "Submission confirmed", "Sent to the Adviser review queue.", "Officer", "Submitted", u);
             AddAudit(doc, "Confirmed", "Confirm", "Confirmed", u?.FullName ?? "Officer", RoleLabel(u?.Role));
             return new ConfirmSubmissionResult(
                 doc.Id, doc.Number, doc.Status, doc.Stage, true, doc.LockedAt.Value,
@@ -522,7 +522,7 @@ public sealed class MockStore
         if (d is null) return null;
         var items = d.Events.Where(e => e.Action is not null)
             .OrderBy(e => e.At)
-            .Select(e => new WorkflowHistoryItemDto(e.Id, e.ActorRole ?? "", e.ActorName ?? "", e.Action!, e.Comments, null, e.At))
+            .Select(e => new WorkflowHistoryItemDto(e.Id, e.ActorRole ?? "", e.ActorName ?? "", e.Action!, e.Comments, e.At))
             .ToList();
         return new WorkflowHistoryDto(d.Id, d.Number, d.Stage, d.Status is "Approved" or "Archived", items);
     }
@@ -567,7 +567,7 @@ public sealed class MockStore
                 AddAudit(doc, "Returned", "Return", "Returned", u.FullName, RoleLabel(u.Role));
             }
 
-            return new WorkflowDecisionResult(doc.Id, doc.Number, action, doc.Status, doc.Stage, DateTimeOffset.Now, null,
+            return new WorkflowDecisionResult(doc.Id, doc.Number, action, doc.Status, doc.Stage, DateTimeOffset.Now,
                 $"{action} recorded.");
         }
     }
@@ -704,12 +704,12 @@ public sealed class MockStore
 
     private void SeedTimelinesAndAudit()
     {
-        Event("doc-001", "2026-08-12T09:20:00+08:00", "Submission confirmed", "Metadata locked.", "Officer", "Submitted");
+        Event("doc-001", "2026-08-12T09:20:00+08:00", "Submission confirmed", "Sent to the Adviser review queue.", "Officer", "Submitted");
         Event("doc-001", "2026-08-12T09:22:00+08:00", "OCR scanning complete", "Tesseract v5 average confidence 94%.", "Calsv", "Submitted");
         Event("doc-001", "2026-08-12T09:24:00+08:00", "AI validation complete", "CALSV class: Valid Submission · 91%.", "Calsv", "AiValidated");
         Event("doc-001", "2026-08-12T09:28:00+08:00", "Routed to Adviser", "Package queued for Adviser Demo.", "Adviser", "UnderReview");
 
-        Event("doc-002", "2026-08-08T14:10:00+08:00", "Submission confirmed", "Metadata locked.", "Officer", "Submitted");
+        Event("doc-002", "2026-08-08T14:10:00+08:00", "Submission confirmed", "Sent to the Adviser review queue.", "Officer", "Submitted");
         Event("doc-002", "2026-08-08T14:16:00+08:00", "AI validation complete", "CALSV class: Valid Submission · 86%.", "Calsv", "AiValidated");
         Event("doc-002", "2026-08-10T11:02:00+08:00", "Adviser approved", "Electronic signature applied.", "Adviser", "Approved", MockIds.Of("u-adviser"), "Adviser Demo", "Adviser", "Approve");
         Event("doc-002", "2026-08-10T11:05:00+08:00", "Routed to Dean", "Adviser Demo approved. Awaiting Dean Demo.", "Dean", "UnderReview");
@@ -719,7 +719,7 @@ public sealed class MockStore
         Event("doc-003", "2026-07-26T09:40:00+08:00", "Dean approved", "Forwarded to SOU.", "Dean", "Approved", MockIds.Of("u-dean"), "Dean Demo", "Dean", "Approve");
         Event("doc-003", "2026-07-28T16:00:00+08:00", "SOU approved", "Archived in organization repository.", "Sou", "Approved", MockIds.Of("u-sou"), "SOU Staff Demo", "SouStaff", "Approve");
 
-        Event("doc-004", "2026-08-02T16:48:00+08:00", "Submission confirmed", "Metadata locked.", "Officer", "Submitted");
+        Event("doc-004", "2026-08-02T16:48:00+08:00", "Submission confirmed", "Sent to the Adviser review queue.", "Officer", "Submitted");
         Event("doc-004", "2026-08-02T16:50:00+08:00", "AI flagged for human review", "CALSV score 58%.", "Calsv", "Flagged");
         Event("doc-004", "2026-08-04T10:15:00+08:00", "Returned for revision", "Venue permit missing; date conflicts with midterms.", "Adviser", "Returned", MockIds.Of("u-adviser"), "Adviser Demo", "Adviser", "Return", "Venue permit is missing and activity date conflicts with midterm week.");
 

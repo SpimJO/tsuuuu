@@ -300,7 +300,6 @@ public sealed record WorkflowDecisionResult(
     string NewStatus,
     string NewStage,
     DateTimeOffset DecidedAt,
-    string? SignatureHash,
     string Message);
 
 public sealed record WorkflowHistoryItemDto(
@@ -309,7 +308,6 @@ public sealed record WorkflowHistoryItemDto(
     string ActorName,
     string Action,
     string? Comments,
-    string? SignatureHash,
     DateTimeOffset DecidedAt);
 
 public sealed record WorkflowHistoryDto(

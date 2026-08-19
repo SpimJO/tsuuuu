@@ -1,0 +1,9 @@
+@page "/sou/monitor/{DocumentId:guid}"
+@layout PortalLayout
+@attribute [Authorize(Roles = "SouStaff,SystemAdmin")]
+
+<DocumentReviewPanel DocumentId="DocumentId" From="monitor" TitlePrefix="Workflow monitor" />
+
+@code {
+    [Parameter] public Guid DocumentId { get; set; }
+}

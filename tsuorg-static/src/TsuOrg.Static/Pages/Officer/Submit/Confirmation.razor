@@ -20,11 +20,11 @@
     <p class="hint">
         @if (_confirmed || (_doc?.IsMetadataLocked ?? false))
         {
-            <text>Metadata is locked. Your submission is uneditable.</text>
+            <text>This submission is confirmed and can no longer be edited.</text>
         }
         else
         {
-            <text>Confirming will lock metadata and send this package to the Adviser review queue. No further edits can be made.</text>
+            <text>Confirming will send this package to the Adviser review queue. No further edits can be made.</text>
         }
     </p>
 
@@ -70,8 +70,8 @@
                 <div class="v">@(_auditCreated ? "yes" : "pending")</div>
             </div>
             <div class="meta-cell">
-                <div class="k">Metadata State:</div>
-                <div class="v">@(_metadataLocked ? "Locked" : "Unlocked")</div>
+                <div class="k">Status:</div>
+                <div class="v">@(_metadataLocked ? "Confirmed" : "Draft")</div>
             </div>
         </div>
 
@@ -84,7 +84,7 @@
 
         <p class="hint" style="margin-top:1rem;">
             Confirming your submission will send the document for official university review.
-            No further edits can be made. Metadata is locked. Your submission is definitive.
+            No further edits can be made.
         </p>
 
         <div class="wizard-actions">
