@@ -116,7 +116,6 @@ internal sealed class MockDoc
     public string SubmittedByPosition { get; set; } = "";
     public string? AdviserName { get; set; }
     public string? AssignedTo { get; set; }
-    public string? Hash { get; set; }
     public bool Locked { get; set; }
     public DateTimeOffset? LockedAt { get; set; }
     public string? PrimaryFile { get; set; }

@@ -1572,17 +1572,6 @@ img { max-width: 100%; display: block; }
   font-weight: 600;
   color: var(--ink);
 }
-.fig10-confirm .hash-line {
-  margin: 0.25rem 0 0;
-  font-size: 0.78rem;
-  color: var(--muted);
-  word-break: break-all;
-}
-.fig10-confirm .hash-line code {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
-  color: #94a3b8;
-  font-size: 0.74rem;
-}
 
 /* Tracker */
 .tabs {
@@ -3248,22 +3237,6 @@ input.toggle:checked::after { transform: translateX(18px); }
   font-size: 0.7rem;
   font-weight: 700;
   flex-shrink: 0;
-}
-.integrity-box {
-  background: rgba(2, 6, 23, 0.55);
-  border: 1px solid var(--line);
-  border-radius: 12px;
-  padding: 0.75rem 1rem;
-  font-size: 0.78rem;
-  color: #94a3b8;
-  display: flex;
-  flex-direction: column;
-  gap: 0.3rem;
-}
-.integrity-box code {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
-  word-break: break-all;
-  color: #cbd5e1;
 }
 .review-comment { width: 100%; resize: vertical; min-height: 110px; }
 

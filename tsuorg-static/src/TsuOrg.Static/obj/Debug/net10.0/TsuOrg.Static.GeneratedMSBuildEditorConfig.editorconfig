@@ -18,17 +18,26 @@ build_property.EntryPointFilePath =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = TsuOrg.Frontend
 build_property.RootNamespace = TsuOrg.Frontend
+<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\John Lloyd\Desktop\CP2SYSTEM\tsuuuu\tsuorg-static\src\TsuOrg.Static\
+=======
+build_property.ProjectDir = D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static\
+>>>>>>> 669d48ca4fe6f53fd0fa1434b4613e3934f28e3a
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = false
 build_property.RazorLangVersion = 10.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+<<<<<<< HEAD
 build_property.MSBuildProjectDirectory = C:\Users\John Lloyd\Desktop\CP2SYSTEM\tsuuuu\tsuorg-static\src\TsuOrg.Static
+=======
+build_property.MSBuildProjectDirectory = D:\Development\projects\tsuorg-clone\tsuorg-static\src\TsuOrg.Static
+>>>>>>> 669d48ca4fe6f53fd0fa1434b4613e3934f28e3a
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 10.0
 build_property.EnableCodeStyleSeverity = 
 
+<<<<<<< HEAD
 [C:/Users/John Lloyd/Desktop/CP2SYSTEM/tsuuuu/tsuorg-static/src/TsuOrg.Static/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
@@ -162,5 +171,140 @@ build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU291XFRyYWNrZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/John Lloyd/Desktop/CP2SYSTEM/tsuuuu/tsuorg-static/src/TsuOrg.Static/_Imports.razor]
+=======
+[D:/Development/projects/tsuorg-clone/tsuorg-static/src/TsuOrg.Static/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Development/projects/tsuorg-clone/tsuorg-static/src/TsuOrg.Static/Components/DocumentTimeline.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xEb2N1bWVudFRpbWVsaW5lLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Development/projects/tsuorg-clone/tsuorg-static/src/TsuOrg.Static/Components/RedirectToLogin.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSZWRpcmVjdFRvTG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Development/projects/tsuorg-clone/tsuorg-static/src/TsuOrg.Static/Components/StatusBadge.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTdGF0dXNCYWRnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Development/projects/tsuorg-clone/tsuorg-static/src/TsuOrg.Static/Components/SubmissionStepper.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTdWJtaXNzaW9uU3RlcHBlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Development/projects/tsuorg-clone/tsuorg-static/src/TsuOrg.Static/Layout/AuthLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XEF1dGhMYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Development/projects/tsuorg-clone/tsuorg-static/src/TsuOrg.Static/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Development/projects/tsuorg-clone/tsuorg-static/src/TsuOrg.Static/Layout/PortalLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XFBvcnRhbExheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Development/projects/tsuorg-clone/tsuorg-static/src/TsuOrg.Static/Pages/Account/Profile.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxQcm9maWxlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Development/projects/tsuorg-clone/tsuorg-static/src/TsuOrg.Static/Pages/Account/Settings.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxTZXR0aW5ncy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Development/projects/tsuorg-clone/tsuorg-static/src/TsuOrg.Static/Pages/Auth/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aFxMb2dpbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Development/projects/tsuorg-clone/tsuorg-static/src/TsuOrg.Static/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Development/projects/tsuorg-clone/tsuorg-static/src/TsuOrg.Static/Pages/Officer/Dashboard.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT2ZmaWNlclxEYXNoYm9hcmQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Development/projects/tsuorg-clone/tsuorg-static/src/TsuOrg.Static/Pages/Officer/OrgDocuments.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT2ZmaWNlclxPcmdEb2N1bWVudHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Development/projects/tsuorg-clone/tsuorg-static/src/TsuOrg.Static/Pages/Officer/Submit/Confirmation.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT2ZmaWNlclxTdWJtaXRcQ29uZmlybWF0aW9uLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Development/projects/tsuorg-clone/tsuorg-static/src/TsuOrg.Static/Pages/Officer/Submit/Ocr.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT2ZmaWNlclxTdWJtaXRcT2NyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Development/projects/tsuorg-clone/tsuorg-static/src/TsuOrg.Static/Pages/Officer/Submit/SelectType.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT2ZmaWNlclxTdWJtaXRcU2VsZWN0VHlwZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Development/projects/tsuorg-clone/tsuorg-static/src/TsuOrg.Static/Pages/Officer/Submit/Upload.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT2ZmaWNlclxTdWJtaXRcVXBsb2FkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Development/projects/tsuorg-clone/tsuorg-static/src/TsuOrg.Static/Pages/Officer/Submit/Validation.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT2ZmaWNlclxTdWJtaXRcVmFsaWRhdGlvbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Development/projects/tsuorg-clone/tsuorg-static/src/TsuOrg.Static/Pages/Officer/Tracker.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT2ZmaWNlclxUcmFja2VyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Development/projects/tsuorg-clone/tsuorg-static/src/TsuOrg.Static/Pages/Officer/TrackerDetail.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT2ZmaWNlclxUcmFja2VyRGV0YWlsLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Development/projects/tsuorg-clone/tsuorg-static/src/TsuOrg.Static/Pages/Review/Audit.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmV2aWV3XEF1ZGl0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Development/projects/tsuorg-clone/tsuorg-static/src/TsuOrg.Static/Pages/Review/Dashboard.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmV2aWV3XERhc2hib2FyZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Development/projects/tsuorg-clone/tsuorg-static/src/TsuOrg.Static/Pages/Review/Decide.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmV2aWV3XERlY2lkZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Development/projects/tsuorg-clone/tsuorg-static/src/TsuOrg.Static/Pages/Review/History.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmV2aWV3XEhpc3RvcnkucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Development/projects/tsuorg-clone/tsuorg-static/src/TsuOrg.Static/Pages/Review/Queue.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmV2aWV3XFF1ZXVlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Development/projects/tsuorg-clone/tsuorg-static/src/TsuOrg.Static/Pages/Sou/Admin.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU291XEFkbWluLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Development/projects/tsuorg-clone/tsuorg-static/src/TsuOrg.Static/Pages/Sou/Audit.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU291XEF1ZGl0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Development/projects/tsuorg-clone/tsuorg-static/src/TsuOrg.Static/Pages/Sou/Monitor.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU291XE1vbml0b3IucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Development/projects/tsuorg-clone/tsuorg-static/src/TsuOrg.Static/Pages/Sou/Organizations.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU291XE9yZ2FuaXphdGlvbnMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Development/projects/tsuorg-clone/tsuorg-static/src/TsuOrg.Static/Pages/Sou/Reports.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU291XFJlcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Development/projects/tsuorg-clone/tsuorg-static/src/TsuOrg.Static/Pages/Sou/Settings.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU291XFNldHRpbmdzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Development/projects/tsuorg-clone/tsuorg-static/src/TsuOrg.Static/Pages/Sou/Tracker.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU291XFRyYWNrZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Development/projects/tsuorg-clone/tsuorg-static/src/TsuOrg.Static/_Imports.razor]
+>>>>>>> 669d48ca4fe6f53fd0fa1434b4613e3934f28e3a
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
