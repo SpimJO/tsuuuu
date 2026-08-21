@@ -29,6 +29,9 @@ Then run SETUP.bat again.
 $images = Join-Path $Root "data\raw\images\sf08"
 $import = Join-Path $Root "data\raw\label_studio_sf08_import.json"
 $xml = Join-Path $Root "data\templates\label_studio_config.xml"
+$arImages = Join-Path $Root "data\raw\images\accomplishment"
+$arImport = Join-Path $Root "data\raw\label_studio_ar_import.json"
+$arXml = Join-Path $Root "data\templates\label_studio_config_ar.xml"
 
 if (-not (Test-Path $images)) {
     throw "Missing SF08 images at data\raw\images\sf08. Zip/send the whole tsuorg-ml-clone folder, including data\."
@@ -42,12 +45,27 @@ if (-not (Test-Path $xml)) { throw "Missing $xml" }
 
 Write-Host "Found $pngCount SF08 page images." -ForegroundColor Green
 
+$arPngCount = 0
+if (Test-Path $arImages) {
+    $arPngCount = @(Get-ChildItem $arImages -Filter *.png -File -Recurse).Count
+}
+if ($arPngCount -gt 0) {
+    Write-Host "Found $arPngCount Accomplishment (AR) page images under Org folders." -ForegroundColor Green
+    if (-not (Test-Path $arImport)) { Write-Host "WARNING: missing $arImport" -ForegroundColor Yellow }
+    if (-not (Test-Path $arXml)) { Write-Host "WARNING: missing $arXml" -ForegroundColor Yellow }
+} else {
+    Write-Host "No AR images yet (optional). SF08-only setup is OK." -ForegroundColor DarkYellow
+}
+
 # Keep import URLs on this clone's image port (9091).
-$raw = [System.IO.File]::ReadAllText($import)
-$fixed = $raw -replace "http://127\.0\.0\.1:9090", "http://127.0.0.1:9091"
-if ($fixed -ne $raw) {
-    [System.IO.File]::WriteAllText($import, $fixed)
-    Write-Host "Updated import JSON to http://127.0.0.1:9091" -ForegroundColor Yellow
+foreach ($importFile in @($import, $arImport)) {
+    if (-not (Test-Path $importFile)) { continue }
+    $raw = [System.IO.File]::ReadAllText($importFile)
+    $fixed = $raw -replace "http://127\.0\.0\.1:9090", "http://127.0.0.1:9091"
+    if ($fixed -ne $raw) {
+        [System.IO.File]::WriteAllText($importFile, $fixed)
+        Write-Host "Updated $(Split-Path $importFile -Leaf) to http://127.0.0.1:9091" -ForegroundColor Yellow
+    }
 }
 
 $py = Get-PythonLauncher

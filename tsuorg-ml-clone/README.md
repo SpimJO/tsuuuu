@@ -36,3 +36,14 @@ Keep both START windows open while labeling (image server + Label Studio).
 `FORM_TITLE`, `DATE_PROPOSAL`, `ORG_NAME`, `OBJECTIVES`, `ACTIVITY_TITLE`, `ACTIVITY_DATE`, `VENUE`, `PARTICIPANTS`, `ACTIVITY_MODE`, `ORG_OFFICER_SIGNATURE`, `ADVISER_SIGNATURE`, `SAS_SIGNATURE`
 
 Document type: `SF08`.
+
+## Accomplishment Report (AR) labeling
+
+Same SETUP / START as SF08. Then create a **new Label Studio project**:
+
+1. **Settings → Labeling Interface → Code** — paste `data\templates\label_studio_config_ar.xml`
+2. **Import** `data\raw\label_studio_ar_import.json`
+3. Keep the image server window open (serves `data\raw\images\accomplishment\Org …\`)
+
+AR page images are grouped by org (same names as `dataset\AR`) to avoid mixing SF08 / orgs.
+

@@ -1,0 +1,6121 @@
+{
+  "images_processed": 365,
+  "page_type_counts": {
+    "cover": 9,
+    "summary": 272,
+    "activity": 84
+  },
+  "template_page_types": [
+    "cover",
+    "summary",
+    "activity"
+  ],
+  "ocr_fill_rate": {
+    "ACADEMIC_YEAR": "7/365",
+    "ACTIVITY_DATE": "333/365",
+    "ACTIVITY_NAME": "324/365",
+    "ACTIVITY_NO": "136/365",
+    "EXTENT_OF_BENEFITS": "332/365",
+    "INVOLVEMENT": "343/365",
+    "LEVEL": "281/365",
+    "LOGO_HEADER": "345/365",
+    "NARRATIVE": "78/365",
+    "ORG_NAME": "6/365",
+    "REPORT_TITLE": "4/365",
+    "SEMESTER": "7/365",
+    "SUMMARY_TITLE": "268/365",
+    "VENUE": "330/365"
+  },
+  "reports": [
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p01.png",
+      "page_type": "cover",
+      "text_filled": [
+        "ACADEMIC_YEAR",
+        "SEMESTER"
+      ],
+      "text_missing": [
+        "LOGO_HEADER",
+        "ORG_NAME",
+        "REPORT_TITLE"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p02.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p03.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p04.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p05.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p06.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p07.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p08.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "EXTENT_OF_BENEFITS"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p09.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p10.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "EXTENT_OF_BENEFITS"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p11.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "EXTENT_OF_BENEFITS"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p12.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p13.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p14.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "EXTENT_OF_BENEFITS"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p15.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p16.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p17.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p18.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p19.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p20.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p21.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p22.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p23.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "EXTENT_OF_BENEFITS"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p24.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p25.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "LEVEL"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p26.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "LEVEL"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p27.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "LEVEL"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p28.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO",
+        "LEVEL"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p29.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO",
+        "LEVEL"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p30.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "LEVEL"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p31.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p32.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "LEVEL"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p33.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "EXTENT_OF_BENEFITS"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p34.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p35.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p36.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p37.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p38.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "EXTENT_OF_BENEFITS"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p39.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p40.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p41.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p42.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p43.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "LEVEL"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p44.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p45.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "NARRATIVE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p46.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "NARRATIVE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_DATE"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p47.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO",
+        "LEVEL"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p48.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p49.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "NARRATIVE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_DATE"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p50.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "NARRATIVE"
+      ],
+      "text_missing": [
+        "VENUE"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p51.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "NARRATIVE"
+      ],
+      "text_missing": [
+        "VENUE"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p52.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p53.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "VENUE"
+      ],
+      "text_missing": [
+        "NARRATIVE"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p54.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "NARRATIVE"
+      ],
+      "text_missing": [
+        "VENUE"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p55.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "NARRATIVE"
+      ],
+      "text_missing": [
+        "VENUE"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p56.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "NARRATIVE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p57.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p58.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p59.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "NARRATIVE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_DATE"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p60.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "NARRATIVE"
+      ],
+      "text_missing": [
+        "VENUE"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p61.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "NARRATIVE"
+      ],
+      "text_missing": [
+        "VENUE"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p62.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "NARRATIVE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p63.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "NARRATIVE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_DATE"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p64.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO",
+        "LEVEL"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p65.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "NARRATIVE"
+      ],
+      "text_missing": [
+        "VENUE"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p66.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "NARRATIVE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "LEVEL"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p67.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p68.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER"
+      ],
+      "text_missing": [
+        "ACTIVITY_DATE",
+        "EXTENT_OF_BENEFITS",
+        "NARRATIVE",
+        "VENUE"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p69.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "NARRATIVE"
+      ],
+      "text_missing": [
+        "VENUE"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p70.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "NARRATIVE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_DATE"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p71.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p72.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "NARRATIVE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_DATE"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p73.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "NARRATIVE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p74.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO",
+        "LEVEL"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p75.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "NARRATIVE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p76.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p77.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "NARRATIVE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p78.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-cba__p79.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "NARRATIVE"
+      ],
+      "text_missing": [
+        "VENUE"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-educ__p01.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "NARRATIVE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "LEVEL"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-educ__p02.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-educ__p03.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-educ__p04.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-educ__p05.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-educ__p06.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-educ__p07.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-educ__p08.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-educ__p09.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO",
+        "LEVEL"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-educ__p10.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-educ__p11.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-educ__p12.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-educ__p13.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-educ__p14.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-educ__p15.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-educ__p16.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-educ__p17.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "NARRATIVE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-educ__p18.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-educ__p19.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-educ__p20.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-educ__p21.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-educ__p22.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-educ__p23.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-educ__p24.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-educ__p25.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-educ__p26.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-educ__p27.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-educ__p28.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-educ__p29.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "NARRATIVE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-educ__p30.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-educ__p31.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-educ__p32.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-educ__p33.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-educ__p34.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-maharlikaa__p01.png",
+      "page_type": "cover",
+      "text_filled": [
+        "ACADEMIC_YEAR",
+        "ORG_NAME",
+        "REPORT_TITLE",
+        "SEMESTER"
+      ],
+      "text_missing": [
+        "LOGO_HEADER"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-maharlikaa__p02.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "NARRATIVE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-maharlikaa__p03.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "NARRATIVE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-maharlikaa__p04.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "LEVEL",
+        "LOGO_HEADER",
+        "NARRATIVE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "INVOLVEMENT"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-maharlikaa__p05.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "LEVEL",
+        "NARRATIVE"
+      ],
+      "text_missing": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NO",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "VENUE"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-maharlikaa__p06.png",
+      "page_type": "activity",
+      "text_filled": [
+        "EXTENT_OF_BENEFITS",
+        "LEVEL",
+        "NARRATIVE"
+      ],
+      "text_missing": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "VENUE"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-maharlikaa__p07.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "LEVEL"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-maharlikaa__p08.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "NARRATIVE"
+      ],
+      "text_missing": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NO",
+        "LOGO_HEADER",
+        "VENUE"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-maharlikaa__p09.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "NARRATIVE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO",
+        "VENUE"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-maharlikaa__p10.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "NARRATIVE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-maharlikaa__p11.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "NARRATIVE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO",
+        "LOGO_HEADER",
+        "VENUE"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-maharlikaa__p12.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "NARRATIVE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO",
+        "VENUE"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-maharlikaa__p13.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "LEVEL",
+        "LOGO_HEADER",
+        "NARRATIVE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NO",
+        "INVOLVEMENT"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-maharlikaa__p14.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "NARRATIVE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-maharlikaa__p15.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "LEVEL"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-maharlikaa__p16.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "LEVEL",
+        "LOGO_HEADER"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-maharlikaa__p17.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "LEVEL"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-maharlikaa__p18.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "LEVEL"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-maharlikaa__p19.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "LEVEL"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-maharlikaa__p20.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "LEVEL"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-maharlikaa__p21.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "LEVEL",
+        "LOGO_HEADER"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-maharlikaa__p22.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "LEVEL",
+        "LOGO_HEADER"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-maharlikaa__p23.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO",
+        "LEVEL"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-maharlikaa__p24.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO",
+        "LEVEL"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-maharlikaa__p25.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO",
+        "LEVEL"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-maharlikaa__p26.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO",
+        "LEVEL"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-maharlikaa__p27.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-maharlikaa__p28.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO",
+        "LEVEL"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-maharlikaa__p29.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-maharlikaa__p30.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-maharlikaa__p31.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "LEVEL"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-maharlikaa__p32.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-maharlikaa__p33.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-maharlikaa__p34.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO",
+        "LEVEL"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-maharlikaa__p35.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO",
+        "LEVEL"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-maharlikaa__p36.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO",
+        "LEVEL"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-maharlikaa__p37.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO",
+        "LEVEL"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-maharlikaa__p38.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO",
+        "LEVEL"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-maharlikaa__p39.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "LEVEL"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-maharlikaa__p40.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO",
+        "LEVEL"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-maharlikaa__p41.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO",
+        "LEVEL"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-maharlikaa__p42.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO",
+        "LEVEL"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-maharlikaa__p43.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO",
+        "LEVEL"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-maharlikaa__p44.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-maharlikaa__p45.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO",
+        "LEVEL"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-maharlikaa__p46.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO",
+        "LEVEL"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-maharlikaa__p47.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-maharlikaa__p48.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-maharlikaa__p49.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-maharlikaa__p50.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "LEVEL"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-maharlikaa__p51.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO",
+        "LEVEL"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-maharlikaa__p52.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO",
+        "LEVEL"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-maharlikaa__p53.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-maharlikaa__p54.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO",
+        "LEVEL"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-maharlikaa__p55.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "LEVEL"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-maharlikaa__p56.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO",
+        "LEVEL"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-maharlikaa__p57.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO",
+        "LEVEL"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-maharlikaa__p58.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "LEVEL"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-maharlikaa__p59.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO",
+        "LEVEL"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-maharlikaa__p60.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO",
+        "LEVEL"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-maharlikaa__p61.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "LEVEL"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-maharlikaa__p62.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-tsu-communicators-guild__p01.png",
+      "page_type": "cover",
+      "text_filled": [
+        "ACADEMIC_YEAR",
+        "LOGO_HEADER",
+        "SEMESTER"
+      ],
+      "text_missing": [
+        "ORG_NAME",
+        "REPORT_TITLE"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-tsu-communicators-guild__p02.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "VENUE"
+      ],
+      "text_missing": [
+        "LOGO_HEADER",
+        "SUMMARY_TITLE"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-tsu-communicators-guild__p03.png",
+      "page_type": "activity",
+      "text_filled": [
+        "EXTENT_OF_BENEFITS",
+        "LEVEL",
+        "NARRATIVE"
+      ],
+      "text_missing": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "VENUE"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-tsu-communicators-guild__p04.png",
+      "page_type": "activity",
+      "text_filled": [
+        "EXTENT_OF_BENEFITS",
+        "LEVEL",
+        "NARRATIVE"
+      ],
+      "text_missing": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "VENUE"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-tsu-communicators-guild__p05.png",
+      "page_type": "activity",
+      "text_filled": [
+        "EXTENT_OF_BENEFITS",
+        "LEVEL",
+        "NARRATIVE"
+      ],
+      "text_missing": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "VENUE"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-tsu-communicators-guild__p06.png",
+      "page_type": "activity",
+      "text_filled": [
+        "EXTENT_OF_BENEFITS",
+        "LEVEL",
+        "NARRATIVE"
+      ],
+      "text_missing": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "VENUE"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-tsu-communicators-guild__p07.png",
+      "page_type": "activity",
+      "text_filled": [
+        "EXTENT_OF_BENEFITS",
+        "LEVEL",
+        "NARRATIVE"
+      ],
+      "text_missing": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "VENUE"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-tsu-communicators-guild__p08.png",
+      "page_type": "activity",
+      "text_filled": [
+        "EXTENT_OF_BENEFITS",
+        "LEVEL",
+        "NARRATIVE"
+      ],
+      "text_missing": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "VENUE"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-tsu-communicators-guild__p09.png",
+      "page_type": "activity",
+      "text_filled": [
+        "EXTENT_OF_BENEFITS",
+        "LEVEL",
+        "NARRATIVE"
+      ],
+      "text_missing": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "VENUE"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-tsu-communicators-guild__p10.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "NARRATIVE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "EXTENT_OF_BENEFITS"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-tsu-communicators-guild__p11.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "NARRATIVE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-tsu-communicators-guild__p12.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NO",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "NARRATIVE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-tsu-communicators-guild__p13.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "NARRATIVE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NAME"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-tsu-communicators-guild__p14.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NO",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "NARRATIVE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-tsu-communicators-guild__p15.png",
+      "page_type": "cover",
+      "text_filled": [
+        "LOGO_HEADER",
+        "ORG_NAME"
+      ],
+      "text_missing": [
+        "ACADEMIC_YEAR",
+        "REPORT_TITLE",
+        "SEMESTER"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-tsu-communicators-guild__p16.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NO",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "NARRATIVE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-tsu-communicators-guild__p17.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "NARRATIVE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-tsu-communicators-guild__p18.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "NARRATIVE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "EXTENT_OF_BENEFITS"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-tsu-communicators-guild__p19.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "NARRATIVE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NAME"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-tsu-communicators-guild__p20.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-tsu-communicators-guild__p21.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "VENUE"
+      ],
+      "text_missing": [
+        "EXTENT_OF_BENEFITS",
+        "NARRATIVE"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-tsu-communicators-guild__p22.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-tsu-communicators-guild__p23.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "NARRATIVE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NAME"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-tsu-communicators-guild__p24.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "NARRATIVE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "EXTENT_OF_BENEFITS"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-tsu-communicators-guild__p25.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "NARRATIVE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-tsu-communicators-guild__p26.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_NO",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "NARRATIVE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-tsu-communicators-guild__p27.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-tsu-communicators-guild__p28.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NO",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "NARRATIVE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-tsu-communicators-guild__p29.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_NO",
+        "INVOLVEMENT",
+        "LOGO_HEADER"
+      ],
+      "text_missing": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "LEVEL",
+        "NARRATIVE",
+        "VENUE"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-tsu-communicators-guild__p30.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-tsu-communicators-guild__p31.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_NO",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "LEVEL",
+        "NARRATIVE"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-tsu-communicators-guild__p32.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NO",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "NARRATIVE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-tsu-communicators-guild__p33.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NO",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "NARRATIVE"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-tsu-communicators-guild__p34.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-tsu-communicators-guild__p35.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-tsu-communicators-guild__p36.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-tsu-communicators-guild__p37.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-tsu-communicators-guild__p38.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-tsu-communicators-guild__p39.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-tsu-communicators-guild__p40.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO",
+        "LEVEL"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-tsu-communicators-guild__p41.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-tsu-communicators-guild__p42.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-tsu-communicators-guild__p43.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-tsu-communicators-guild__p44.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-tsu-communicators-guild__p45.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO",
+        "LEVEL"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-tsu-communicators-guild__p46.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-tsu-communicators-guild__p47.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-tsu-communicators-guild__p48.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "NARRATIVE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "EXTENT_OF_BENEFITS"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narative-tsu-communicators-guild__p49.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narrative-asfe-coed__p01.png",
+      "page_type": "cover",
+      "text_filled": [
+        "ORG_NAME"
+      ],
+      "text_missing": [
+        "ACADEMIC_YEAR",
+        "LOGO_HEADER",
+        "REPORT_TITLE",
+        "SEMESTER"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narrative-asfe-coed__p02.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narrative-asfe-coed__p03.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narrative-asfe-coed__p04.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narrative-asfe-coed__p05.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narrative-asfe-coed__p06.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO",
+        "LEVEL"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narrative-asfe-coed__p07.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narrative-asfe-coed__p08.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narrative-asfe-coed__p09.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narrative-asfe-coed__p10.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narrative-asfe-coed__p11.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narrative-asfe-coed__p12.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO",
+        "LEVEL"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narrative-asfe-coed__p13.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narrative-asfe-coed__p14.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narrative-asfe-coed__p15.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO",
+        "LEVEL"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narrative-asfe-coed__p16.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narrative-asfe-coed__p17.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narrative-asfe-coed__p18.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO",
+        "LEVEL"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narrative-asfe-coed__p19.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__ar-narrative-asfe-coed__p20.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO",
+        "LEVEL"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__cass-ar__p01.png",
+      "page_type": "cover",
+      "text_filled": [
+        "ACADEMIC_YEAR",
+        "LOGO_HEADER",
+        "ORG_NAME",
+        "REPORT_TITLE",
+        "SEMESTER"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__cass-ar__p02.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__cass-ar__p03.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__cass-ar__p04.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__cass-ar__p05.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__cass-ar__p06.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__cass-ar__p07.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__cass-ar__p08.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "NARRATIVE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__cass-ar__p09.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__cass-ar__p10.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO",
+        "LEVEL"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__cass-ar__p11.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "NARRATIVE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__cass-ar__p12.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "NARRATIVE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__cass-ar__p13.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "NARRATIVE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__cass-ar__p14.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__cass-ar__p15.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__cass-ar__p16.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO",
+        "LEVEL"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__cass-ar__p17.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "NARRATIVE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__cass-ar__p18.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO",
+        "LEVEL"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__cass-ar__p19.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "NARRATIVE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__cass-ar__p20.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "NARRATIVE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__cass-ar__p21.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO",
+        "LEVEL"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__cass-ar__p22.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__cass-ar__p23.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__cass-ar__p24.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO",
+        "LEVEL"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__cass-ar__p25.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO",
+        "LEVEL"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__cass-ar__p26.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__coese-ar__p01.png",
+      "page_type": "cover",
+      "text_filled": [
+        "ACADEMIC_YEAR",
+        "LOGO_HEADER",
+        "ORG_NAME",
+        "REPORT_TITLE",
+        "SEMESTER"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__coese-ar__p02.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__coese-ar__p03.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__coese-ar__p04.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "VENUE"
+      ],
+      "text_missing": [
+        "SUMMARY_TITLE"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__coese-ar__p05.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__coese-ar__p06.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__coese-ar__p07.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "VENUE"
+      ],
+      "text_missing": [
+        "SUMMARY_TITLE"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__coese-ar__p08.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "VENUE"
+      ],
+      "text_missing": [
+        "SUMMARY_TITLE"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__coese-ar__p09.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO",
+        "LEVEL"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__coese-ar__p10.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__coese-ar__p11.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__coese-ar__p12.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__coese-ar__p13.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__coese-ar__p14.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__coese-ar__p15.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__coese-ar__p16.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO",
+        "LEVEL"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__coese-ar__p17.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__coese-ar__p18.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO",
+        "LEVEL"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__coese-ar__p19.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__coese-ar__p20.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__coese-ar__p21.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__coese-ar__p22.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__coese-ar__p23.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__coese-ar__p24.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO",
+        "LEVEL"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__coese-ar__p25.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__coese-ar__p26.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO",
+        "LEVEL"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__coese-ar__p27.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__coese-ar__p28.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__coese-ar__p29.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__coese-ar__p30.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__coese-ar__p31.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__econ-ar__p01.png",
+      "page_type": "cover",
+      "text_filled": [
+        "ACADEMIC_YEAR",
+        "SEMESTER"
+      ],
+      "text_missing": [
+        "LOGO_HEADER",
+        "ORG_NAME",
+        "REPORT_TITLE"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__econ-ar__p02.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__econ-ar__p03.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__econ-ar__p04.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__econ-ar__p05.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__econ-ar__p06.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__econ-ar__p07.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__econ-ar__p08.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__econ-ar__p09.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__econ-ar__p10.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__econ-ar__p11.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__econ-ar__p12.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__econ-ar__p13.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__econ-ar__p14.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "LEVEL",
+        "LOGO_HEADER",
+        "NARRATIVE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_DATE",
+        "INVOLVEMENT"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__maharlika-ar__p01.png",
+      "page_type": "cover",
+      "text_filled": [
+        "ACADEMIC_YEAR",
+        "LOGO_HEADER",
+        "ORG_NAME",
+        "REPORT_TITLE",
+        "SEMESTER"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__maharlika-ar__p02.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__maharlika-ar__p03.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__maharlika-ar__p04.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__maharlika-ar__p05.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__maharlika-ar__p06.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__maharlika-ar__p07.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__maharlika-ar__p08.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__maharlika-ar__p09.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__maharlika-ar__p10.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__maharlika-ar__p11.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__maharlika-ar__p12.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__maharlika-ar__p13.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__maharlika-ar__p14.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__maharlika-ar__p15.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__maharlika-ar__p16.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__maharlika-ar__p17.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__maharlika-ar__p18.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__maharlika-ar__p19.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__maharlika-ar__p20.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__maharlika-ar__p21.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO",
+        "LOGO_HEADER"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__maharlika-ar__p22.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__maharlika-ar__p23.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__maharlika-ar__p24.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO",
+        "LEVEL"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__maharlika-ar__p25.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "NARRATIVE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__maharlika-ar__p26.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "NARRATIVE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__maharlika-ar__p27.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__maharlika-ar__p28.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "LEVEL",
+        "LOGO_HEADER",
+        "NARRATIVE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO",
+        "INVOLVEMENT"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__maharlika-ar__p29.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO",
+        "LEVEL"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__maharlika-ar__p30.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__maharlika-ar__p31.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "NARRATIVE"
+      ],
+      "text_missing": [
+        "VENUE"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__maharlika-ar__p32.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__maharlika-ar__p33.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "NARRATIVE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__maharlika-ar__p34.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__maharlika-ar__p35.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__maharlika-ar__p36.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "NARRATIVE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__maharlika-ar__p37.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "NARRATIVE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__maharlika-ar__p38.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__maharlika-ar__p39.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__maharlika-ar__p40.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__maharlika-ar__p41.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__maharlika-ar__p42.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__maharlika-ar__p43.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "NARRATIVE",
+        "VENUE"
+      ],
+      "text_missing": []
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__maharlika-ar__p44.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "NARRATIVE"
+      ],
+      "text_missing": [
+        "VENUE"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__maharlika-ar__p45.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__maharlika-ar__p46.png",
+      "page_type": "activity",
+      "text_filled": [
+        "ACTIVITY_NAME",
+        "ACTIVITY_NO",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "NARRATIVE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_DATE"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__maharlika-ar__p47.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__maharlika-ar__p48.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO",
+        "LEVEL"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__maharlika-ar__p49.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    },
+    {
+      "image": "D:\\Development\\projects\\tsuorg\\tsuorg-ml\\data\\raw\\images\\accomplishment\\ar-narrative__maharlika-ar__p50.png",
+      "page_type": "summary",
+      "text_filled": [
+        "ACTIVITY_DATE",
+        "ACTIVITY_NAME",
+        "EXTENT_OF_BENEFITS",
+        "INVOLVEMENT",
+        "LEVEL",
+        "LOGO_HEADER",
+        "SUMMARY_TITLE",
+        "VENUE"
+      ],
+      "text_missing": [
+        "ACTIVITY_NO"
+      ]
+    }
+  ]
+}
