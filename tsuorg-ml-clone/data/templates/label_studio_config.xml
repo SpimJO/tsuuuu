@@ -4,7 +4,7 @@
 -->
 <View>
   <Header value="Document type"/>
-  <Choices name="doc_type" toName="image" choice="single" required="true">
+  <Choices name="doc_type" toName="image" choice="single" required="false">
     <Choice value="SF08"/>
   </Choices>
 
