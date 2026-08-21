@@ -30,13 +30,23 @@
         "INVOLVEMENT": {"x": 46.0, "y": 22.0, "width": 14.0, "height": 54.0},
         "EXTENT_OF_BENEFITS": {"x": 60.0, "y": 22.0, "width": 20.0, "height": 54.0},
         "LEVEL": {"x": 80.0, "y": 22.0, "width": 18.0, "height": 54.0},
+        "TABLE-ACTIVITY_NO": {"x": 2.0, "y": 24.0, "width": 4.5, "height": 52.0},
+        "TABLE-ACTIVITY_NAME": {"x": 6.5, "y": 24.0, "width": 21.5, "height": 52.0},
+        "TABLE-ACTIVITY_DATE": {"x": 28.0, "y": 24.0, "width": 8.0, "height": 52.0},
+        "TABLE-VENUE": {"x": 36.0, "y": 24.0, "width": 10.0, "height": 52.0},
+        "TABLE-INVOLVEMENT": {"x": 46.0, "y": 22.0, "width": 14.0, "height": 54.0},
+        "TABLE-EXTENT_OF_BENEFITS": {"x": 60.0, "y": 22.0, "width": 20.0, "height": 54.0},
+        "TABLE-LEVEL": {"x": 80.0, "y": 22.0, "width": 18.0, "height": 54.0},
         "SECRETARY_SIGNATURE": {"x": 5.0, "y": 78.0, "width": 28.0, "height": 12.0},
         "PRESIDENT_SIGNATURE": {"x": 35.0, "y": 78.0, "width": 28.0, "height": 12.0},
         "ADVISER_SIGNATURE": {"x": 65.0, "y": 78.0, "width": 28.0, "height": 12.0}
       },
       "ocr_text_fields": [
-        "LOGO_HEADER", "SUMMARY_TITLE", "ACTIVITY_NO", "ACTIVITY_NAME",
-        "ACTIVITY_DATE", "VENUE", "INVOLVEMENT", "EXTENT_OF_BENEFITS", "LEVEL"
+        "LOGO_HEADER", "SUMMARY_TITLE",
+        "ACTIVITY_NO", "ACTIVITY_NAME", "ACTIVITY_DATE", "VENUE",
+        "INVOLVEMENT", "EXTENT_OF_BENEFITS", "LEVEL",
+        "TABLE-ACTIVITY_NO", "TABLE-ACTIVITY_NAME", "TABLE-ACTIVITY_DATE",
+        "TABLE-VENUE", "TABLE-INVOLVEMENT", "TABLE-EXTENT_OF_BENEFITS", "TABLE-LEVEL"
       ]
     },
     "activity": {
