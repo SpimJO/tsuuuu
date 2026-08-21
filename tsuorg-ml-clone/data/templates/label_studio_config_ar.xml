@@ -20,7 +20,7 @@
   <Image name="image" value="$image" zoom="true" zoomControl="true"/>
 
   <Header value="Click a label, draw a box, then type the text inside"/>
-  <Labels name="label" toName="image">
+  <RectangleLabels name="label" toName="image">
     <Label value="LOGO_HEADER" background="#f59e0b"/>
     <Label value="ORG_NAME" background="#3b82f6"/>
     <Label value="REPORT_TITLE" background="#ec4899"/>
@@ -38,7 +38,7 @@
     <Label value="SECRETARY_SIGNATURE" background="#94a3b8"/>
     <Label value="PRESIDENT_SIGNATURE" background="#64748b"/>
     <Label value="ADVISER_SIGNATURE" background="#475569"/>
-  </Labels>
+  </RectangleLabels>
 
   <TextArea name="transcription" toName="image" perRegion="true"
             placeholder="Type the text visible in the selected region..."
