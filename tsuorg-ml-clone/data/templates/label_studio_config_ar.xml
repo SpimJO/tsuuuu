@@ -2,10 +2,11 @@
   Label Studio config — Accomplishment Report / SF-06 (TSU-SOU-SF-06).
   Paste into: Settings -> Labeling Interface -> Code
 
-  Page types (same label set; draw only fields present on the page):
+  Page types (draw only fields present on the page):
     • Cover      — LOGO_HEADER, ORG_NAME, REPORT_TITLE, SEMESTER, ACADEMIC_YEAR
-    • Summary    — LOGO_HEADER, SUMMARY_TITLE, ACTIVITY_NO, ACTIVITY_NAME,
-                   ACTIVITY_DATE, VENUE, INVOLVEMENT, EXTENT_OF_BENEFITS, LEVEL,
+    • Summary    — LOGO_HEADER, SUMMARY_TITLE,
+                   TABLE-ACTIVITY_NO, TABLE-ACTIVITY_NAME, TABLE-ACTIVITY_DATE,
+                   TABLE-VENUE, TABLE-INVOLVEMENT, TABLE-EXTENT_OF_BENEFITS, TABLE-LEVEL,
                    SECRETARY_SIGNATURE, PRESIDENT_SIGNATURE, ADVISER_SIGNATURE
     • Activity   — LOGO_HEADER, ACTIVITY_NO, ACTIVITY_NAME, ACTIVITY_DATE, VENUE,
                    INVOLVEMENT, LEVEL, EXTENT_OF_BENEFITS, NARRATIVE
@@ -27,14 +28,24 @@
     <Label value="SEMESTER" background="#84cc16"/>
     <Label value="ACADEMIC_YEAR" background="#f97316"/>
     <Label value="SUMMARY_TITLE" background="#06b6d4"/>
-    <Label value="ACTIVITY_NO" background="#a855f7"/>
-    <Label value="ACTIVITY_NAME" background="#f59e0b"/>
-    <Label value="ACTIVITY_DATE" background="#38bdf8"/>
-    <Label value="VENUE" background="#6366f1"/>
-    <Label value="INVOLVEMENT" background="#16a34a"/>
-    <Label value="LEVEL" background="#db2777"/>
-    <Label value="EXTENT_OF_BENEFITS" background="#ca8a04"/>
+
+    <Label value="TABLE-ACTIVITY_NO" background="#a855f7"/>
+    <Label value="TABLE-ACTIVITY_NAME" background="#f59e0b"/>
+    <Label value="TABLE-ACTIVITY_DATE" background="#38bdf8"/>
+    <Label value="TABLE-VENUE" background="#6366f1"/>
+    <Label value="TABLE-INVOLVEMENT" background="#16a34a"/>
+    <Label value="TABLE-EXTENT_OF_BENEFITS" background="#ca8a04"/>
+    <Label value="TABLE-LEVEL" background="#db2777"/>
+
+    <Label value="ACTIVITY_NO" background="#c084fc"/>
+    <Label value="ACTIVITY_NAME" background="#fdba74"/>
+    <Label value="ACTIVITY_DATE" background="#7dd3fc"/>
+    <Label value="VENUE" background="#818cf8"/>
+    <Label value="INVOLVEMENT" background="#4ade80"/>
+    <Label value="LEVEL" background="#f472b6"/>
+    <Label value="EXTENT_OF_BENEFITS" background="#fbbf24"/>
     <Label value="NARRATIVE" background="#ea580c"/>
+
     <Label value="SECRETARY_SIGNATURE" background="#94a3b8"/>
     <Label value="PRESIDENT_SIGNATURE" background="#64748b"/>
     <Label value="ADVISER_SIGNATURE" background="#475569"/>
