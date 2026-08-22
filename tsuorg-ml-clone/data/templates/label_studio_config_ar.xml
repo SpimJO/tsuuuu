@@ -9,7 +9,7 @@
                    TABLE-VENUE, TABLE-INVOLVEMENT, TABLE-EXTENT_OF_BENEFITS, TABLE-LEVEL,
                    SECRETARY_SIGNATURE, PRESIDENT_SIGNATURE, ADVISER_SIGNATURE
     • Activity   — LOGO_HEADER, ACTIVITY_NO, ACTIVITY_NAME, ACTIVITY_DATE, VENUE,
-                   INVOLVEMENT, LEVEL, EXTENT_OF_BENEFITS, NARRATIVE
+                   INVOLVEMENT, LEVEL, EXTENT_OF_BENEFITS, NARRATIVE, ACTIVITY_PHOTO
 -->
 <View>
   <Header value="Document type"/>
@@ -45,6 +45,7 @@
     <Label value="LEVEL" background="#f472b6"/>
     <Label value="EXTENT_OF_BENEFITS" background="#fbbf24"/>
     <Label value="NARRATIVE" background="#ea580c"/>
+    <Label value="ACTIVITY_PHOTO" background="#14b8a6"/>
 
     <Label value="SECRETARY_SIGNATURE" background="#94a3b8"/>
     <Label value="PRESIDENT_SIGNATURE" background="#64748b"/>
