@@ -38,6 +38,7 @@
     <Label value="SECRETARY_SIGNATURE" background="#94a3b8"/>
     <Label value="PRESIDENT_SIGNATURE" background="#64748b"/>
     <Label value="ADVISER_SIGNATURE" background="#475569"/>
+        
   </RectangleLabels>
 
   <TextArea name="transcription" toName="image" perRegion="true"
