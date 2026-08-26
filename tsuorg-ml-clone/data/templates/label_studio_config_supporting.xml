@@ -8,8 +8,11 @@
     • Photo Documentation — HEADER, PHOTO_DOCUMENTATION, PICTURES
     • Photo page (images only) — HEADER, PICTURES
     • Certificate — HEADER, CERTIFICATE_TITLE, RECIPIENT, PURPOSE,
-                    DATE_AND_VENUE, SIGNATURES
-    • Attendance — TITLE, DATE, NAME, TEAM, SIGNATURES
+                    CERT_DATE_VENUE, DEPARTMENT_HEAD_SIGNATURE, MEMBER_SIGNATURE
+    • Attendance — TITLE, DATE, NAME, TEAM,
+                    MEMBER_NAME, MEMBER_TITLE, MEMBER_DATE,
+                    DEPARTMENT_HEAD_NAME, DEPARTMENT_HEAD_TITLE, DEPARTMENT_HEAD_DATE,
+                    DEPARTMENT_HEAD_SIGNATURE, MEMBER_SIGNATURE
 -->
 <View>
   <Header value="Supporting document type"/>
@@ -23,7 +26,7 @@
   <Image name="image" value="$image" zoom="true" zoomControl="true"/>
 
   <Header value="Click a label, draw a box, then type the text inside"/>
-  <Labels name="label" toName="image">
+  <RectangleLabels name="label" toName="image">
     <!-- Shared / Photo Documentation -->
     <Label value="HEADER" background="#ef4444"/>
     <Label value="PHOTO_DOCUMENTATION" background="#22c55e"/>
@@ -33,15 +36,26 @@
     <Label value="CERTIFICATE_TITLE" background="#16a34a"/>
     <Label value="RECIPIENT" background="#eab308"/>
     <Label value="PURPOSE" background="#3b82f6"/>
-    <Label value="DATE_AND_VENUE" background="#a855f7"/>
-    <Label value="SIGNATURES" background="#dc2626"/>
+    <Label value="CERT_DATE_VENUE" background="#a855f7"/>
 
-    <!-- Attendance sheet -->
+    <!-- Attendance sheet (document-level) -->
     <Label value="TITLE" background="#f43f5e"/>
     <Label value="DATE" background="#fb7185"/>
     <Label value="NAME" background="#f97316"/>
     <Label value="TEAM" background="#14b8a6"/>
-  </Labels>
+
+    <!-- Members (row / person fields) -->
+    <Label value="MEMBER_NAME" background="#fb923c"/>
+    <Label value="MEMBER_TITLE" background="#fdba74"/>
+    <Label value="MEMBER_DATE" background="#fcd34d"/>
+    <Label value="MEMBER_SIGNATURE" background="#64748b"/>
+
+    <!-- Department head / approving officer -->
+    <Label value="DEPARTMENT_HEAD_NAME" background="#f87171"/>
+    <Label value="DEPARTMENT_HEAD_TITLE" background="#fca5a5"/>
+    <Label value="DEPARTMENT_HEAD_DATE" background="#fecaca"/>
+    <Label value="DEPARTMENT_HEAD_SIGNATURE" background="#dc2626"/>
+  </RectangleLabels>
 
   <TextArea name="transcription" toName="image" perRegion="true"
             placeholder="Type the text visible in the selected region..."

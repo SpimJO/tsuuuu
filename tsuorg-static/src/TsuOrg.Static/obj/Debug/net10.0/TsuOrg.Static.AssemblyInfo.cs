@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TsuOrg.Static")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+df9a3b46d33ca18f236aeb91f05b8befe8da2afd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b72d9d75b7eeb50a497cbba1847443667d6393c")]
 [assembly: System.Reflection.AssemblyProductAttribute("TsuOrg.Static")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TsuOrg.Static")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
