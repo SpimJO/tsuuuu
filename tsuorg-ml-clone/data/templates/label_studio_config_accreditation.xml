@@ -1,0 +1,112 @@
+<!--
+  Label Studio config — Accreditation / Application forms (SF01, SF02, SF03,
+  SF Directory, GPOA). Derived from tsuorg-ml/pattern/*.pdf layouts.
+
+  Paste into: Settings -> Labeling Interface -> Code
+-->
+<View>
+  <Header value="Document type"/>
+  <Choices name="doc_type" toName="image" choice="single" required="false">
+    <Choice value="ACCREDITATION"/>
+  </Choices>
+
+  <Header value="Form (optional — pick if known)"/>
+  <Choices name="form_no" toName="image" choice="single" required="false">
+    <Choice value="SF01"/>
+    <Choice value="SF02"/>
+    <Choice value="SF03"/>
+    <Choice value="SF_DIRECTORY"/>
+    <Choice value="GPOA"/>
+  </Choices>
+
+  <Header value="Page image"/>
+  <Image name="image" value="$image" zoom="true" zoomControl="true"/>
+
+  <Header value="Click a label, draw a box, then type the text inside"/>
+  <RectangleLabels name="label" toName="image">
+    <!-- Shared header -->
+    <Label value="LOGO_HEADER" background="#f59e0b"/>
+    <Label value="FORM_TITLE" background="#22d3ee"/>
+    <Label value="APPLICATION_TITLE" background="#06b6d4"/>
+    <Label value="ORG_NAME" background="#3b82f6"/>
+    <Label value="ORG_NAME_BLOCK" background="#2563eb"/>
+    <Label value="ACADEMIC_YEAR" background="#f97316"/>
+    <Label value="ACADEMIC_YEAR_BLOCK" background="#ea580c"/>
+    <Label value="COLLEGE" background="#8b5cf6"/>
+
+    <!-- SF01 application -->
+    <Label value="PRESIDENT_NAME" background="#10b981"/>
+    <Label value="ADVISER_NAME" background="#14b8a6"/>
+    <Label value="ADVISER_APPOINTMENT_STATUS" background="#84cc16"/>
+    <Label value="ASSISTANT_ADVISER_NAME" background="#22c55e"/>
+    <Label value="ASSISTANT_ADVISER_APPOINTMENT_STATUS" background="#65a30d"/>
+    <Label value="OFFICER_COUNT" background="#eab308"/>
+    <Label value="MEMBER_COUNT" background="#facc15"/>
+    <Label value="FB_LINK" background="#0ea5e9"/>
+    <Label value="IG_LINK" background="#38bdf8"/>
+    <Label value="TWITTER_LINK" background="#7dd3fc"/>
+    <Label value="OTHER_LINK" background="#bae6fd"/>
+    <Label value="APPLICATION_TYPE" background="#a855f7"/>
+    <Label value="CLASSIFICATION" background="#c084fc"/>
+    <Label value="SOU_STAFF_SECTION" background="#94a3b8"/>
+
+    <!-- SF02 statements -->
+    <Label value="PRESIDENT_STATEMENT_TITLE" background="#ef4444"/>
+    <Label value="PRESIDENT_RESPONSIBILITIES" background="#f87171"/>
+    <Label value="PRESIDENT_SIGNATURE" background="#64748b"/>
+    <Label value="ADVISER_STATEMENT_TITLE" background="#dc2626"/>
+    <Label value="ADVISER_RESPONSIBILITIES" background="#fca5a5"/>
+    <Label value="ADVISER_SIGNATURE" background="#475569"/>
+    <Label value="ASSISTANT_ADVISER_STATEMENT_TITLE" background="#b91c1c"/>
+    <Label value="ASSISTANT_ADVISER_RESPONSIBILITIES" background="#fecaca"/>
+    <Label value="ASSISTANT_ADVISER_SIGNATURE" background="#334155"/>
+
+    <!-- SF03 officers -->
+    <Label value="OFFICER_PICTURE_1" background="#f43f5e"/>
+    <Label value="OFFICER_INFO_1" background="#fb7185"/>
+    <Label value="OFFICER_EMERGENCY_1" background="#fda4af"/>
+    <Label value="OFFICER_PICTURE_2" background="#e11d48"/>
+    <Label value="OFFICER_INFO_2" background="#f472b6"/>
+    <Label value="OFFICER_EMERGENCY_2" background="#fbcfe8"/>
+    <Label value="OFFICER_PICTURE_3" background="#be123c"/>
+    <Label value="OFFICER_INFO_3" background="#db2777"/>
+    <Label value="OFFICER_EMERGENCY_3" background="#f9a8d4"/>
+    <Label value="OFFICER_PICTURE_4" background="#9f1239"/>
+    <Label value="OFFICER_INFO_4" background="#ec4899"/>
+    <Label value="OFFICER_EMERGENCY_4" background="#fce7f3"/>
+    <Label value="OFFICER_PICTURE_5" background="#881337"/>
+    <Label value="OFFICER_INFO_5" background="#d946ef"/>
+    <Label value="OFFICER_EMERGENCY_5" background="#f5d0fe"/>
+    <Label value="OFFICER_PICTURE_6" background="#701a35"/>
+    <Label value="OFFICER_INFO_6" background="#c026d3"/>
+    <Label value="OFFICER_EMERGENCY_6" background="#e9d5ff"/>
+    <Label value="OFFICER_PICTURE_7" background="#500724"/>
+    <Label value="OFFICER_INFO_7" background="#a21caf"/>
+    <Label value="OFFICER_EMERGENCY_7" background="#ddd6fe"/>
+
+    <!-- SF Directory -->
+    <Label value="PRIVACY_NOTICE" background="#6366f1"/>
+    <Label value="TABLE_ROW_NUMBER" background="#818cf8"/>
+    <Label value="MEMBER_NAME" background="#4f46e5"/>
+    <Label value="YEAR_COURSE" background="#4338ca"/>
+    <Label value="STUDENT_NUMBER" background="#3730a3"/>
+    <Label value="ADDRESS" background="#312e81"/>
+    <Label value="CONTACT_NUMBER" background="#1e1b4b"/>
+
+    <!-- GPOA activity + signatures -->
+    <Label value="ACTIVITY_TITLE" background="#2dd4bf"/>
+    <Label value="ACTIVITY_DATE" background="#38bdf8"/>
+    <Label value="VENUE" background="#a78bfa"/>
+    <Label value="PARTICIPANTS" background="#fb7185"/>
+    <Label value="OBJECTIVES" background="#fbbf24"/>
+    <Label value="BUDGET_ALLOTMENT" background="#34d399"/>
+    <Label value="NARRATIVE" background="#ea580c"/>
+    <Label value="DEAN_SIGNATURE" background="#78716c"/>
+    <Label value="OSAS_SIGNATURE" background="#57534e"/>
+    <Label value="SOU_SIGNATURE" background="#44403c"/>
+  </RectangleLabels>
+
+  <TextArea name="transcription" toName="image" perRegion="true"
+            placeholder="Type the text visible in the selected region..."
+            editable="true" required="false"/>
+</View>
